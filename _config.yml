@@ -16,7 +16,7 @@ description: My playground in HTML5, JavaScript, .NET, Python, Ruby, Google/Sina
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
+subscribe_rss: /Eric-Guo/atom.xml
 subscribe_email:
 category_feeds: false
 # RSS feeds can list your email address if you like
@@ -30,10 +30,10 @@ location:
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /
+root: /Eric-Guo
 permalink: /:year/:month/:day/:title/
 source: source
-destination: public
+destination: public/Eric-Guo
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories

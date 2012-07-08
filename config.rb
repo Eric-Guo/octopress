@@ -2,11 +2,11 @@
 project_type = :stand_alone
 
 # Publishing paths
-http_path = "/"
-http_images_path = "/images"
+http_path = "/Eric-Guo/"
+http_images_path = "/Eric-Guo/images"
 http_generated_images_path = "/images"
-http_fonts_path = "/fonts"
-css_dir = "public/stylesheets"
+http_fonts_path = "/Eric-Guo/fonts"
+css_dir = "public/Eric-Guo/stylesheets"
 
 # Local development paths
 sass_dir = "sass"
