@@ -110,12 +110,12 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: ericguo-blog
 disqus_show_comment_count: false
 disqus_developer: 0
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-33344807-1
 google_analytics_set_domain_name:         # Tracking one domain with multiple subdomains
 google_analytics_set_allow_linker: false  # Tracking multiple top-level domains
 

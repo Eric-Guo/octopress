@@ -6,3 +6,4 @@ comments: true
 external-url:
 categories: [Life]
 ---
+Just very glad to annource that I switch my blog from Micolog to Octopress
