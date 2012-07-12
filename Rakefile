@@ -389,7 +389,9 @@ task :setup_github_pages, :repo do |t, args|
   if args.repo
     repo_url = args.repo
   else
-    repo_url = get_stdin("Enter the read/write url for your repository: ")
+    puts "Enter the read/write url for your repository" 
+    puts "(For example, 'git@github.com:your_username/your_username.github.com)"
+    repo_url = get_stdin("Repository url: ")
   end
   unless repo_url[-4..-1] == ".git"
     repo_url << ".git"
