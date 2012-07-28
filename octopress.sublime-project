@@ -2,7 +2,9 @@
 	"folders":
 	[
 		{
-			"path": "."
+			"path": ".",
+			"folder_exclude_patterns": [".bundle",".idea",".pygments-cache",".sass-cache",".gist-cache"],
+			"file_exclude_patterns": [".gitkeep","*.sublime-workspace","*.sqlite3*",".tags*",".gemtags"]
 		}
 	]
 }
