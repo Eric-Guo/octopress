@@ -61,7 +61,7 @@ Rake::Minify.new(:minify_and_combine) do
 
   puts "BEGIN Minifying #{output_file}"
   group(output_file) do
-    files.each do |filename|
+    files.sort.each do |filename|
       puts "Minifying- #{filename} into #{output_file}"
       if filename.include? '.min.js'
         add(filename, :minify => false)
