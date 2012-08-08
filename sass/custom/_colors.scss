@@ -5,12 +5,31 @@
 
   For a handy color picker try http://hslpicker.com */
 
-//$header-bg: #263347;
-//$subtitle-color: lighten($header-bg, 58);
-//$nav-bg: desaturate(lighten(#8fc17a, 18), 5);
+$accentGreen: #9bbb59;
+$linkGreen: #577715;
+$accentGrey: #b0b0b0;
+
+$link-color: $linkGreen;
+$title-color: #333;
+
+$header-bg: #f2f2f2;
+article h1 {
+  color: $title-color;
+}
+article h1 a:hover {
+  color: $linkGreen !important;
+}
+$subtitle-color: darken($header-bg, 58);
+$nav-bg: desaturate(lighten($accentGreen, 18), 5);
+$nav-bg-front: image-url('noise.png');
+$nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11));
 //$sidebar-bg: desaturate(#eceff5, 8);
-//$sidebar-link-color: saturate(#526f9a, 10);
-//$sidebar-link-color-hover: darken(#7ab662, 9);
+$sidebar-link-color: darken($link-color, 20);
+$sidebar-link-color-hover: $link-color;
+$footer-color: darken($accentGrey, 40);
+$footer-bg:  $nav-bg;
+$footer-bg-front: image-url('noise.png');
+$footer-bg-back: linear-gradient(lighten($footer-bg, 8), $footer-bg, darken($footer-bg, 11));
 
 
 /* To use the dark code highlighting theme uncomment the following line */
