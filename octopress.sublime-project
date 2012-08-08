@@ -5,7 +5,7 @@
 			"path": ".",
 			"folder_exclude_patterns": ["public","_deploy",".themes",
 			".bundle",".idea",".pygments-cache",".sass-cache",".gist-cache"],
-			"file_exclude_patterns": ["octopress.min.js","jquery.min.js",".gitkeep","*.sublime-workspace","*.sqlite3*",".tags*",".gemtags"]
+			"file_exclude_patterns": ["octopress.min.js","jquery.min.js","screen.css",".gitkeep","*.sublime-workspace","*.sqlite3*",".tags*",".gemtags"]
 		}
 	]
 }
