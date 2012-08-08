@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://ecguo.cloud-mes.com
-title: Eric Guo's Blog
-subtitle: My playground in HTML5, JavaScript, .NET, Python, Ruby, Google/Sina App Engine and Cloud MES!
+url: http://blog.cloud-mes.com
+title: Eric Guo's Bl<span class="accent3">o</span>g.cloud-mes<span class="accent3">.</span><span class="accent1">com</span>
+subtitle: Playground in HTML5, JavaScript, Ruby & Rails, .NET, Python, and Cloud MES!
 author: Eric Guo
 simple_search: http://google.com/search
-description: My playground in HTML5, JavaScript, .NET, Python, Ruby, Google/Sina App Engine and Cloud MES!
+description: Playground in HTML5, JavaScript, Ruby & Rails, .NET, Python, and Cloud MES!
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
