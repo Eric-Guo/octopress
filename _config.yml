@@ -3,12 +3,12 @@
 # ----------------------- #
 
 url: http://blog.cloud-mes.com
-title: Eric Guo's Blog.cloud-mes.com
-h1_title: Eric Guo's Bl<span class="accent3">o</span>g.cloud-mes<span class="accent3">.</span><span class="accent1">com</span>
-subtitle: Playground in HTML5, JavaScript, Ruby & Rails, .NET, Python, and Cloud MES!
+title: Eric Guo's blog.cloud-mes.com
+h1_title: Eric Guo's bl<span class="accent3">o</span>g.cloud-mes<span class="accent3">.</span><span class="accent1">com</span>
+subtitle: in HTML5, JavaScript, Ruby & Rails, Python, and Cloud MES!
 author: Eric Guo
 simple_search: http://google.com/search
-description: Playground in HTML5, JavaScript, Ruby & Rails, .NET, Python, and Cloud MES!
+description: Eric Guo's blog.cloud-mes.com in HTML5, JavaScript, Ruby & Rails, Python, and Cloud MES!
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
