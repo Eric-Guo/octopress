@@ -3,7 +3,8 @@
 # ----------------------- #
 
 url: http://blog.cloud-mes.com
-title: Eric Guo's Bl<span class="accent3">o</span>g.cloud-mes<span class="accent3">.</span><span class="accent1">com</span>
+title: Eric Guo's Blog.cloud-mes.com
+h1_title: Eric Guo's Bl<span class="accent3">o</span>g.cloud-mes<span class="accent3">.</span><span class="accent1">com</span>
 subtitle: Playground in HTML5, JavaScript, Ruby & Rails, .NET, Python, and Cloud MES!
 author: Eric Guo
 simple_search: http://google.com/search
