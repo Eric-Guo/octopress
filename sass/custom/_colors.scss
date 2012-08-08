@@ -19,7 +19,7 @@ article h1 {
 article h1 a:hover {
   color: $linkGreen !important;
 }
-$subtitle-color: darken($header-bg, 58);
+$subtitle-color: darken($header-bg, 66);
 $nav-bg: desaturate(lighten($accentGreen, 18), 5);
 $nav-bg-front: image-url('noise.png');
 $nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11));
