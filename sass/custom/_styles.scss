@@ -13,3 +13,34 @@ body > header {
 .accent3 {
   color: darken($accentGreen, 10);
 }
+
+div.entry-content {
+  > table {
+    border-style: solid;
+    border-color: $accentGreen;
+    border-width: 2px;
+
+    th, td {
+      border-style: solid;
+      border-color: $accentGreen;
+      border-width:1px;
+      padding-left: 4px;
+      padding-right: 4px;
+      font-weight:bold;
+      background: image-url('noise.png') repeat scroll left top #F7F3F7;
+    }
+
+    th[align="left"], td[align="left"] {
+      text-align:left;
+    }
+
+    th[align="right"], td[align="right"] {
+      text-align:right;
+    }
+
+    th[align="center"], td[align="center"] {
+      text-align:center;
+    }
+  }
+}
+
