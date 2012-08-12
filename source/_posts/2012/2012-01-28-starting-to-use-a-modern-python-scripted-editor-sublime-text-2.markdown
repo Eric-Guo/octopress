@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "starting-to-use-a-modern-python-scripted-editor-sublime-text-2"
-date: 2011-01-28 16:12
+date: 2012-01-28 16:12
 comments: true
 external-url:
 categories: [Sublime, Python]
