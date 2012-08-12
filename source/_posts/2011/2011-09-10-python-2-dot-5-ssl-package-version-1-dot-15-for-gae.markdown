@@ -4,7 +4,7 @@ title: "Python 2.5 SSL package version 1.15 for GAE"
 date: 2011-09-10 14:24
 comments: true
 external-url:
-categories: [GAE, Python, SSL]
+categories: [Python, SSL]
 ---
 In Windows platform, most quickly way to building up the Google App Engine SDK is install <a href="http://www.activestate.com/activepython/downloads/thank-you?dl=http://downloads.activestate.com/ActivePython/releases/2.5.6.10/ActivePython-2.5.6.10-win32-x86.msi" target="_blank">ActiveStates Python 2.5.6.10</a> and the MSI version of <a href="http://googleappengine.googlecode.com/files/GoogleAppEngine-1.5.3.msi">GoogleAppEngine 1.5.3</a>.
 

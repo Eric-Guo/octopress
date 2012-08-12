@@ -4,7 +4,7 @@ title: "Price compare: Sina App Engine vs Google App Engine"
 date: 2011-08-24 22:17
 comments: true
 external-url:
-categories: [GAE, SAE]
+categories: [Cloud]
 ---
 
 Resource|SAE|GAE|Unit of Measure|Rate

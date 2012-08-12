@@ -4,7 +4,7 @@ title: "A GAE based blog, Micolog 7.412 with Django 1.2 enable"
 date: 2011-08-25 00:00
 comments: true
 external-url:
-categories: [GAE, Micolog]
+categories: [Life, Python, Cloud]
 ---
 I would like to thank XuMing and his <a href="http://micolog.xuming.net/" target="_blank">Micolog</a>, it&rsquo;s very small blog program on GAE but functional is quite complete. Micolog is a good reference source code if you are newly to <a href="https://appengine.google.com/" target="_blank">Google App Engine</a>. There is also someone who write a article about how to <a href="http://blog.spbk.net/Micolog%E5%8D%87%E7%BA%A7%E9%BB%98%E8%AE%A40_96%E7%89%88%E6%9C%ACDjango%E8%87%B3Django1_2#reply" target="_blank">upgrade the exist Micolog from Django 0.96 to Django 1.2</a>, the article is download is broken and still have some problem about template safe notation modify here and there.
 

@@ -4,7 +4,7 @@ title: "One line to pack individual PDF file into their BaseName.RAR in PowerShe
 date: 2011-10-17 15:01
 comments: true
 external-url:
-categories: [Script, PowerShell]
+categories: [PowerShell]
 ---
 ```powershell
 gci *.pdf | % {iex $("rar mf -m5 -rr1 {0}.rar '{1}'" -f $($_.BaseName -replace "\s+","."),$_.Name)}
