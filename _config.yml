@@ -53,7 +53,7 @@ pygments: false # Jekyll's default Python Pygments have been replaced by pygment
 
 paginate: 9          # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
-recent_posts: 5       # Posts in the sidebar Recent Posts section
+recent_posts: 7       # Posts in the sidebar Recent Posts section
 excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
 excerpt_in_feed: false # Truncate excerpted articles in the atom feed
 permalink_label: "Permalink"
@@ -81,13 +81,13 @@ respectfully_social: true
 
 # Github repositories
 github_user: Eric-Guo
-github_repo_count: 3
+github_repo_count: 5
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
 twitter_user: ecguo
-twitter_tweet_count: 4
+twitter_tweet_count: 5
 twitter_widget_id:  # apply widget id from https://twitter.com/settings/widgets/new
 twitter_follow_button: true
 twitter_show_follower_count: false
