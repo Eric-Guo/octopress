@@ -4,7 +4,7 @@ title: "Gmail and QQmail should be setting as Exchange Active Sync instead of IM
 date: 2012-08-09 21:44
 comments: true
 external-url:
-categories: [GTD, Mobile]
+categories: [Tips]
 ---
 I use the Gmail as my personal primary email, at the same time, my company using Exchange 2010 as email server, one of the feature I'm quite missing from my gamil is the calendar auto push similar to Exchange server. But I suddenly found in fact Gmail also provide the Exchange Active Sync support and here is how to enable it, I using Android account as example.<!--more-->
 

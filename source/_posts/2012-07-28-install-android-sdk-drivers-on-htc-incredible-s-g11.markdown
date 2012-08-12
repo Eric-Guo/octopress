@@ -4,7 +4,7 @@ title: "Install Android SDK Drivers on HTC Incredible S/G11"
 date: 2012-07-28 13:58
 comments: true
 external-url:
-categories: [Android, Mobile]
+categories: [Android, Tips]
 ---
 I use the Windows 7 and after you install Android SDK Tools, you can locate the USB driver at [C:\Program Files\Android\android-sdk\extras\google\usb_driver](file://C:\Program Files\Android\android-sdk\extras\google\usb_driver)
 
