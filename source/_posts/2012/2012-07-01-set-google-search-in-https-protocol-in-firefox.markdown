@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "set-google-search-in-HTTPS-protocol-in-firefox"
+title: "Set Google search in HTTPS protocol in Firefox"
 date: 2012-07-01 17:56
 comments: true
 external-url:

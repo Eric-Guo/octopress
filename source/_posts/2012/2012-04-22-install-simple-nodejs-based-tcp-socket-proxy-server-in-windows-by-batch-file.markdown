@@ -4,7 +4,7 @@ title: "Install simple Node.js based TCP socket proxy server in Windows by Batch
 date: 2012-04-22 17:37
 comments: true
 external-url:
-categories: [Node.JS, Proxy]
+categories: [Node.js]
 ---
 In my working Semiconductor factory, some of the machine is heavily protected by network isolate (You can image those machine a very frangible PC which have no windows update turn on), the network is so isolate that only certain bridge PC can connect in both inside intranet and outside - still intranet. To make things even worse, the isolated network is nested; the real machine need cross two level bridge PC to reach the application server.
 

@@ -4,7 +4,7 @@ title: "Some thought after attending the Cloud Foundry 2012 tour in Shanghai"
 date: 2012-03-31 17:24
 comments: true
 external-url:
-categories: [Ruby, RabbitMQ, Redis, MongoDB, Node.JS]
+categories: [Ruby, RabbitMQ, Redis, MongoDB, Node.js]
 ---
 I just attend the CFOpenTour2012 in Shanghai yesterday; its a little surprise that tour didn't require any register fee although I always believe a small amount of register fee can help make audience more concertrate.
 

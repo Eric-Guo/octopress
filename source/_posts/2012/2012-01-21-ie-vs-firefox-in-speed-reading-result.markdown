@@ -4,7 +4,7 @@ title: "Firefox13 is now four times faster than IE9"
 date: 2012-01-21 16:08
 comments: true
 external-url:
-categories: [IE, Firefox]
+categories: [Firefox]
 ---
 <a title="http://ie.microsoft.com/testdrive/Performance/SpeedReading/Default.html" href="http://ie.microsoft.com/testdrive/Performance/SpeedReading/Default.html">http://ie.microsoft.com/testdrive/Performance/SpeedReading/Default.html</a>
 <table>
