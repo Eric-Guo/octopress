@@ -1,10 +1,9 @@
 ---
 layout: page
 title: "About Me"
-date: 2012-08-12 20:10
 comments: true
 sharing: true
-footer: true
+footer: false
 ---
 {% img right http://services.nexodyne.com/email/icon/JvK4k3h6Hr5xXw%3D%3D/h1V75cw%3D/R01haWw%3D/0/image.png Eric's Gmail %}
 
