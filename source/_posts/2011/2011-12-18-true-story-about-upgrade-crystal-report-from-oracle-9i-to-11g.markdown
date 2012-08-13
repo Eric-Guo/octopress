@@ -34,6 +34,6 @@ I return to the starting point again with a conclusion: Switching/setting new Da
 
 After read the conclusion several times, suddenly I found the word ODBC, <a href="http://en.wikipedia.org/wiki/ODBC" target="_blank">Open DataBase Connectivity</a> is MS invented database technology, if it cannot work, why not change another way to link to Oracle?
 
-{% img /images/2011/crystal_report_support_data_sources.png 256 521 Crystal Report supported data sources %}
+{% img /images/2011/crystal_report_support_data_sources.png Crystal Report supported data sources %}
 
 I found the Oracle Server can be a good candidate to replace ODBC link and after fill the TNSNames, User ID and Password, a new Datasource to replace the legacy ODBC Datasource is ready to try again. I tried and this time, the bug is finally solved.

@@ -23,7 +23,7 @@ Certainly I enable the printing system logs to trace the problem immediately and
 
 There is nothing reported after that and the program just dead like a dummy, feeling very frustrated I start to write a command line based test program &ndash; <em>PrintingSystemTestApp.exe</em> and hoping can found something, now I'm lucky and I got it:
 
-{% img /images/2012/need_confirm_dialog_when_install_printer_drivers.png 630 435 Windows Server 2008 need confirm in dialog by default before install a printer driver %}
+{% img /images/2012/need_confirm_dialog_when_install_printer_drivers.png Windows Server 2008 need confirm in dialog by default before install a printer driver %}
 
 So that's the point: The printer in Windows 2008 need manually install its printer driver once before it can working properly in windows service program. A secured windows server will make printing function not work at all in production!
 
@@ -31,6 +31,6 @@ So I just write to the our company's windows team to see if those manually confi
 
 The answer is yes! Based on the <a href="http://technet.microsoft.com/en-us/library/cc753269.aspx" target="_blank">http://technet.microsoft.com/en-us/library/cc753269.aspx</a><span style="color: #1f497d;"> </span>TechNet document, here is the Group Policy access path: Local Computer Policy -&gt; User Configuration -&gt; Administrative Templates -&gt; Control Panel -&gt; Printers -&gt; <strong>Point and Print Restriction:</strong>
 
-{% img /images/2012/point_print_restriction_group_policy_configure_dialog.png 835 665 point & print restriction group policy configure dialog %}
+{% img /images/2012/point_print_restriction_group_policy_configure_dialog.png point & print restriction group policy configure dialog %}
 
 After disable this feature, the production T-Card printed properly now and all user are now happy!

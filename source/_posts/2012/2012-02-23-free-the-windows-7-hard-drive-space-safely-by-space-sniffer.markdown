@@ -12,7 +12,7 @@ Which is my best choose? <!--more-->Re-installing the Windows 7 will take 3 days
 
 That's why I like the <a href="http://spacesniffer.en.softonic.com/" target="_blank">Space Sniffer</a>, the graph hard drive occupation presentation tools, which can easily help me answer the question: Where is my hard drive space gone? Here is my C drive map:
 
-{% img /images/2012/my_dell_D630_c_drive.png 1842 954 Space Sniffer show Dell D630 C drive occupation %}
+{% img /images/2012/my_dell_D630_c_drive.png Space Sniffer show Dell D630 C drive occupation %}
 
 I soon find the Symantec Antivirus Live Update takes me 895MB and according to the Symantec <a href="http://www.symantec.com/connect/forums/change-liveupdate-download-directory" target="_blank">Technical Specialist Suggested</a>: &ldquo;these zip files can be deleted from the download folder, there is no harm in it&rdquo; the folder: C:\ProgramData\Symantec\LiveUpdate\Downloads can be safely totally cleaned by Control Panel-&gt;Live Updates. Another place which occupies 700MB space is C:\Users\6749\AppData\Roaming\115\Box\UserData\4035931\Error.log, which is only log but takes 700MB!
 

@@ -8,7 +8,7 @@ categories: [Linux, eDevice, Knoppix]
 ---
 A couple of days ago, I just <a href="/2011/09/15/how-to-install-windows-7-on-the-6-years-ibm-x60-notebook/">re-install Windows 7 on IBM X60 based on the flash drive</a>, now the new bought Sandisk Ultra USB flash drive is no use now, so during the National Holiday, I just install a Live-CD type Linux on it so I can play something different with MS stuff latter.
 
-I choose <a href="http://en.wikipedia.org/wiki/Knoppix" target="_blank">Knoppix</a> largely because of it's size: Knoppix has the largest size among other Linux distribution like puppy/Slax as well as it's popularity, you can <a href="http://www.knoppix.net/get.php" target="_blank">Get Knoppix</a> via a BT client like <a href="http://www.utorrent.com/" target="_blank">&micro;Torrent</a>. After you get the 3.68GB DVD ISO downloaded, the step to custom Knoppix to fit your needs will be quite simple (yes simple, but it must be consider in the Linux standard<img title="Smile" src="/tinymce/plugins/emotions/img/smiley-smile.gif" border="0" alt="Smile" />):
+I choose <a href="http://en.wikipedia.org/wiki/Knoppix" target="_blank">Knoppix</a> largely because of it's size: Knoppix has the largest size among other Linux distribution like puppy/Slax as well as it's popularity, you can <a href="http://www.knoppix.net/get.php" target="_blank">Get Knoppix</a> via a BT client like <a href="http://www.utorrent.com/" target="_blank">&micro;Torrent</a>. After you get the 3.68GB DVD ISO downloaded, the step to custom Knoppix to fit your needs will be quite simple (yes simple, but it must be consider in the Linux standard):
 
 <!--more-->
 <ol>
