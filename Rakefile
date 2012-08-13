@@ -14,7 +14,7 @@ ssh_key        = ""
 document_root  = "~/website.com/"
 rsync_delete   = false
 rsync_args     = ""  # Any extra arguments to pass to rsync
-deploy_default = "push"
+deploy_default = "gae_update"
 
 # This will be configured for you when you run config_deploy
 deploy_branch  = "gh-pages"
@@ -293,6 +293,12 @@ desc "Generate website and deploy"
 task :gen_deploy => [:integrate, :generate, :deploy] do
 end
 
+end
+
+desc "Deploy website to GAE"
+task :gae_update do
+  puts "## Deploying website to Google App Engine by manually running:"
+  puts "appcfg update ."
 desc "Deploy website via rsync"
 task :rsync do
   exclude = ""
