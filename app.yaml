@@ -1,0 +1,45 @@
+application: eric-guo-blog
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+default_expiration: "15m"
+
+handlers:
+# index files
+- url: /(.*)/
+  static_files: public/\1/index.html
+  upload: public/(.*)/index.html
+
+# site root
+- url: /
+  static_files: public/index.html
+  upload: public/index.html
+
+- url: /404.html
+  static_files: public/404.html
+  upload: public/404.html
+
+- url: /archives
+  static_files: public/archives/index.html
+  upload: public/archives/index.html
+
+- url: /about
+  static_files: public/about/index.html
+  upload: public/about/index.html
+
+- url: /categories
+  static_files: public/categories/index.html
+  upload: public/categories/index.html
+
+# categories have no '/', so can not cover by index files rule
+- url: /categories/(.*)
+  static_files: public/categories/\1/index.html
+  upload: public/categories/(.*)/index.html
+
+- url: /
+  static_dir: public
+
+error_handlers:
+- file: 404.html
