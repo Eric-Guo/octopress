@@ -4,7 +4,7 @@ title: "Rails 3.2 Bootstrap startup site at Github"
 date: 2012-05-31 17:47
 comments: true
 external-url:
-categories: [Rails, Ruby, Github, CSS]
+categories: [Rails, Ruby, HTML5]
 ---
 60 days passed since I decide to <a href="/2012/03/31/some-thought-after-attending-the-cloud-foundry-2012-tour-in-shanghai">learn Ruby &amp; Rails after I attended the Cloud Foundry 2012 tour</a>. I'm now somewhat familiar with Rails 3.2, I following the <a href="http://huacnlee.com/blog/how-to-start-learning-ruby-on-rails" target="_blank">learning roadmap proposed by huacnlee</a> and found most useful resource for Rails is still the <a href="http://guides.rubyonrails.org/" target="_blank">official Ruby on Rails Guide</a>. So if you also want to learn the Rails, I recommend you only read that.
 
