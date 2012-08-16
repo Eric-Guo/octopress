@@ -17,6 +17,10 @@ handlers:
   static_files: public/index.html
   upload: public/index.html
 
+- url: /robots.txt
+  static_files: public/robots.txt
+  upload: public/robots.txt
+
 - url: /404.html
   static_files: public/404.html
   upload: public/404.html
