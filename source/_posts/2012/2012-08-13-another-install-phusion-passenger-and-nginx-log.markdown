@@ -123,6 +123,8 @@ chmod 755 /opt/nginx/conf/vhosts/
 vi /opt/nginx/conf/nginx.conf # append 'include /opt/nginx/conf/vhosts/*;' before last }
 ```
 
+You may also want to set some [Passenger parameter](http://www.modrails.com/documentation/Users%20guide%20Nginx.html#_configuring_phusion_passenger) like `passenger_max_pool_size 15;` according to your system status.
+
 ```bash Create rails root folder
 sudo mkdir -p /var/rails_apps
 sudo chmod 777 /var/rails_apps/ #giving full file permissions
@@ -145,7 +147,7 @@ sudo su - pl-form
 mkdir -p ~/.ssh
 echo 'ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAsBsQ623fdllkyWBnmIVL9lfaxLGKulWv7jwhxLIhp+3fFZ/K0yGeUoJig6a4UlFFmIPibWiubP7utqvJOZO4psdX+GM42HCU/JZmG3gJqYRgwUMupeb8BXEL4r/nG/YE84kOYh1jF8yjNHs2ZSeaO4M4v7Mcsi8USWTM4mTZhO9HZcQZCQBZbkzCf2PwgNq8q7G9jXq6kU+mpUCbwVFZF1R461lzFOIjZQUvxZ+ylKdZxyX0AGCdLybSPcJJkE/H5FMs5KnInme5/692uz8DjXHi0ddw8s6bfIJI7a9av58kJlZNFu/XDWF7WfoNVRhQWn+cl0eBO+hRlUxMCM8jTw== Eric Guo' > ~/.ssh/authorized_keys
 vi ~/.ssh/id_rsa # copy & paste your key here
-chmod 600 id_rsa
+chmod 600 ~/.ssh/id_rsa
 ```
 
 ```bash Clone the application source code from git
@@ -178,7 +180,7 @@ vi cvpforms # using below nginx conf as example
 server {
   listen       80;
   server_name  cvpforms; # replace your DNS name
-  rails_env    development; # or production
+  rails_env    development; # development or production
   root         /var/rails_apps/pl-form/public;
   passenger_enabled on;
 }
@@ -187,7 +189,33 @@ server {
 ```bash Link the configure file and restart nginx
 cd /opt/nginx/conf/vhosts
 ln -s ~/confs/nginx/cvpforms cvpforms
-/etc/init.d/nginx restart
+cd /var/rails_apps/pl-form
+touch tmp/restart.txt # or restart the whole server /etc/init.d/nginx restart
+```
+
+## Part 3 Install Oracle Client
+
+Download only instantclient-basic, instantclient-sqlplus and instantclient-sdk zip archives and unzip them all into the same instantclient_11_2 folder. [x86](http://www.oracle.com/technetwork/topics/linuxsoft-082809.html) [x64](http://www.oracle.com/technetwork/topics/linuxx86-64soft-092277.html)
+
+```bash Install Oracle Instant Client
+sudo apt-get install libaio-dev # must need if you want to use sqlplus
+pscp -p -r instantclient_11_2 root@cvprcsip01:/opt/oracle/ # copy extraced oracle instant client
+ln -s /opt/oracle/instantclient_11_2/libclntsh.so.11.1 /opt/oracle/instantclient_11_2/libclntsh.so
+ln -s /opt/oracle/instantclient_11_2/sqlplus /usr/local/bin/sqlplus
+```
+
+```text append below line to /etc/enviroment file
+ORACLE_BASE=/opt/oracle
+ORACLE_HOME=/opt/oracle/instantclient_11_2
+TNS_ADMIN=/opt/oracle/network/admin
+LD_LIBRARY_PATH=/opt/oracle/instantclient_11_2
+NLS_LANG=AMERICAN_AMERICA.AL32UTF8
+```
+
+Do not forget to config `tnsnames.ora` at `/opt/oracle/network/admin` and running `sqlplus` to ensure oracle client can link to the database correctly.
+
+```bash install ruby-oci8 gems now
+gem install ruby-oci8 # should be no any error here :-)
 ```
 
 ## End of beginning your rails way
