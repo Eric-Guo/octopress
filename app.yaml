@@ -29,6 +29,10 @@ handlers:
   static_files: public/about/index.html
   upload: public/about/index.html
 
+- url: /resume
+  static_files: public/resume/index.html
+  upload: public/resume/index.html
+
 - url: /categories
   static_files: public/categories/index.html
   upload: public/categories/index.html
