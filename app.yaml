@@ -46,6 +46,19 @@ handlers:
   static_files: public/categories/\1/index.html
   upload: public/categories/(.*)/index.html
 
+- url: /google9328e371a3c890e0\.html
+  static_files: public/google9328e371a3c890e0.html
+  upload: public/google9328e371a3c890e0.html
+
+- url: /BingSiteAuth\.xml
+  static_files: public/BingSiteAuth.xml
+  upload: public/BingSiteAuth.xml
+
+# www.mywot.com for blog.cloud-mes.com
+- url: /mywotd928d2c8ae3fd5f09f97\.html
+  static_files: public/mywotd928d2c8ae3fd5f09f97.html
+  upload: public/mywotd928d2c8ae3fd5f09f97.xml
+
 - url: /
   static_dir: public
 
