@@ -21,6 +21,9 @@ subscribe_email:
 category_feeds: false
 # RSS feeds can list your email address if you like
 email:
+# humans.txt file can list your location if specified
+# it also uses 'author', 'email', 'twitter_user' and  'github_user'
+location:
 
 # ----------------------- #
 #    Jekyll & Plugins     #
