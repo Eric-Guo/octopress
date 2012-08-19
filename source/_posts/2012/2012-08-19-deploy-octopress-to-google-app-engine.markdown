@@ -6,9 +6,9 @@ comments: true
 external-url:
 categories: [Cloud]
 ---
-After I [switch](/2012/08/12/switch-from-micolog-to-octopress/) my blog to Octopress, I realize that compare with the Google App Engine, the github.com provide gh-pages hosting service is much slower (10 times compare with GAE, 6xxms with 60ms)
+After I [switch](/2012/08/12/switch-from-micolog-to-octopress/) my blog to Octopress, I realize that compare with the Google App Engine, the [Github gh-pages hosting service](http://pages.github.com/) is much slower (10 times compare with GAE ping value, 6xxms vs 6xms)
 
-So I believe it's better to hosting the static blog file to GAE, it also enable server side script as a bonus if you didn't care about portable.
+So I believe it's better to hosting the static blog file to GAE, switch to GAE also enable server side script as a bonus if you didn't care about portable, which is the most reason I using Octopress.<!--more-->
 
 ```yaml Just save as app.yaml at your octopress root folder
 application: # replace your applyed GAE app id
@@ -59,5 +59,5 @@ handlers:
   static_dir: public
 ```
 
-After setting app.yaml file, using `appcfg.py update .` to upload your Octopress blog to GAE, yes, certianly you also need [install GAE SDK first](https://developers.google.com/appengine/downloads).
+After creating GAE required app.yaml file, using `appcfg.py update .` to upload your Octopress blog to GAE, yes, certianly you also need [install GAE SDK first](https://developers.google.com/appengine/downloads) and apply a GAE account.
 
