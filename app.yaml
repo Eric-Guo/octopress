@@ -21,6 +21,10 @@ handlers:
   static_files: public/robots.txt
   upload: public/robots.txt
 
+- url: /humans.txt
+  static_files: public/humans.txt
+  upload: public/humans.txt
+
 - url: /404.html
   static_files: public/404.html
   upload: public/404.html
