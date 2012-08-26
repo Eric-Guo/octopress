@@ -4,7 +4,7 @@ title: "Grid Computing answer for Python Code Dojo Class Two"
 date: 2012-08-25 15:26
 comments: true
 external-url:
-categories:
+categories: [Python]
 ---
 
 The answer for [Python Code Dojo Class Two](http://topgeek.org/?p=527), which I attend today as seven language in seven week hold by Shanghai TopGeek.
