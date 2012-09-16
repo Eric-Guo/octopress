@@ -37,3 +37,4 @@ Very thanks to TopGeek and Capital of Statistics given this [R lecture](http://t
 * XLConnect
 * xml
 * Rserve
+* ggplot2
