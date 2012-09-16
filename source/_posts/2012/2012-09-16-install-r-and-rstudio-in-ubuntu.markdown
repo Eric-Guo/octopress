@@ -43,6 +43,24 @@ echo 'rsession-process-limit=20' >> /etc/rstudio/rserver.conf
 groupadd rstudio
 ```
 
+##### Setting auto restart and PATH
+
+```bash
+ln -s /usr/lib/rstudio-server/extras/init.d/debian/rstudio-server /etc/init.d/rstudio-server
+vi /etc/init.d/rstudio-server
+```
+
+```text append below line to /etc/init.d/rstudio-server SCRIPTNAME
+ORACLE_BASE=/opt/oracle
+ORACLE_HOME=/opt/oracle/instantclient_11_2
+TNS_ADMIN=/opt/oracle/network/admin
+NLS_LANG=AMERICAN_AMERICA.AL32UTF8
+```
+
+```bash Now you can restart/start via standard init.d service way
+/etc/init.d/rstudio-server restart
+```
+
 ##### Add a user in RStudio
 
 ```bash
