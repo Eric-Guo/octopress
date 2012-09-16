@@ -212,6 +212,15 @@ LD_LIBRARY_PATH=/opt/oracle/instantclient_11_2
 NLS_LANG=AMERICAN_AMERICA.AL32UTF8
 ```
 
+```text also add to /etc/ld.so.conf
+include /etc/ld.so.conf.d/*.conf
+/opt/oracle/instantclient_11_2
+```
+
+```bash update the library
+ldconfig
+```
+
 Do not forget to config `tnsnames.ora` at `/opt/oracle/network/admin` and running `sqlplus` to ensure oracle client can link to the database correctly.
 
 ```bash install ruby-oci8 gems now
