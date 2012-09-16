@@ -4,9 +4,9 @@ title: "The R language training notes"
 date: 2012-09-15 11:04
 comments: true
 external-url:
-categories:
+categories: [R]
 ---
-Very thanks to TopGeek and Capital of Statistics given this [R lecture](http://t.cn/zlPei2T), as part of Seven Languages in Seven Weeks, the [R language](http://w773.51qiangzuo.com/) is more unique than the [original Pragmatic book](http://pragprog.com/book/btlang/seven-languages-in-seven-weeks) language Prolog.
+Very thanks to TopGeek and Capital of Statistics given this [R lecture](http://t.cn/zlPei2T), as part of Seven Languages in Seven Weeks, the [R language](http://w773.51qiangzuo.com/) is more unique than the [original Pragmatic book](http://pragprog.com/book/btlang/seven-languages-in-seven-weeks) language Prolog. <!--more-->
 
 ##### Principle:
 
