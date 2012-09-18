@@ -40,7 +40,24 @@ rstudio-server verify-installation
 echo 'rsession-memory-limit-mb=1000' > /etc/rstudio/rserver.conf
 echo 'rsession-stack-limit-mb=4' >> /etc/rstudio/rserver.conf
 echo 'rsession-process-limit=20' >> /etc/rstudio/rserver.conf
+# Only pass below if you will using proxy mode
+echo 'www-address=127.0.0.1' >> /etc/rstudio/rserver.conf
 groupadd rstudio
+```
+
+##### Setting the proxy server for RStudio server
+
+This section is optional, assured already [install nginx](/2012/08/13/another-install-phusion-passenger-and-nginx-log/) in server.
+
+```nginx do not forgot link to /opt/nginx/conf/vhosts
+server {
+  listen       80;
+  server_name  cvprstudio;
+  location / {
+    proxy_pass http://localhost:8787;
+    proxy_redirect http://localhost:8787/ $scheme://$host/;
+  }
+}
 ```
 
 ##### Setting auto restart and PATH
