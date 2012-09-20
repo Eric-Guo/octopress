@@ -9,8 +9,20 @@ categories: [R]
 Install R in Ubuntu is extremely easy if you don't meet any exception, but if you meet, then you'd better be a very advanced linux user :-)
 <!--more-->
 
-##### Install r-base
+##### Install R
+Because the Ubuntu office source usually R is very half of years older than R-project official source, so I using [r-project.org official source](http://cran.r-project.org/bin/linux/ubuntu/README) to install the latest R system.
+
+```text /etc/apt/sources.list
+# append below line to end of sources.list
+# you can view mirror at http://cran.r-project.org/mirrors.html
+deb http://ftp.ctex.org/mirrors/CRAN/bin/linux/ubuntu precise/
+```
+
 ```bash
+cd ~
+gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys E084DAB9
+gpg -a --export E084DAB9 | sudo apt-key add -
+apt-get upgrade
 apt-get install r-base
 ```
 
