@@ -10,15 +10,15 @@ Install R in Ubuntu is extremely easy if you don't meet any exception, but if yo
 <!--more-->
 
 ##### Install R
-Because the Ubuntu office source usually R is very half of years older than R-project official source, so I using [r-project.org official source](http://cran.r-project.org/bin/linux/ubuntu/README) to install the latest R system.
+Because the Ubuntu official source R version is usually half of years older than R-project official source, so it is recommanded to using [r-project.org official source](http://cran.r-project.org/bin/linux/ubuntu/README) to install the latest R system.
 
-```text /etc/apt/sources.list
+```text vi /etc/apt/sources.list
 # append below line to end of sources.list
 # you can view mirror at http://cran.r-project.org/mirrors.html
 deb http://ftp.ctex.org/mirrors/CRAN/bin/linux/ubuntu precise/
 ```
 
-```bash
+```bash import the GPG key and install r-base
 cd ~
 gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys E084DAB9
 gpg -a --export E084DAB9 | sudo apt-key add -
@@ -29,7 +29,7 @@ apt-get install r-base
 ##### Install Oracle DB access package
 You can found new version of [ROracle](http://cran.r-project.org/web/packages/ROracle/index.html) or [DBI](http://cran.r-project.org/web/packages/DBI/index.html) package in [CRAN](http://cran.r-project.org/index.html), it is also required you [properly install the Oracle Instant Client](/2012/08/13/another-install-phusion-passenger-and-nginx-log/).
 
-```bash
+```bash manual install the ROracle
 wget http://cran.r-project.org/src/contrib/DBI_0.2-5.tar.gz
 R CMD INSTALL DBI_0.2-5.tar.gz
 wget http://cran.r-project.org/src/contrib/ROracle_1.1-5.tar.gz
@@ -98,7 +98,8 @@ passwd cindy # setting password
 ```
 
 ##### Update package
+Usually it is more good to upgrade the r-base in system wide packages instead of per user.
 
-```rconsole R in root to install system wide packages
+```rconsole after run R in root console
 update.packages() # select mirror to check
 ```
