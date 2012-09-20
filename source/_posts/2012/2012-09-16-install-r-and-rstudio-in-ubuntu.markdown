@@ -32,8 +32,8 @@ You can found new version of [ROracle](http://cran.r-project.org/web/packages/RO
 ```bash
 wget http://cran.r-project.org/src/contrib/DBI_0.2-5.tar.gz
 R CMD INSTALL DBI_0.2-5.tar.gz
-wget http://cran.r-project.org/src/contrib/ROracle_1.1-4.tar.gz
-R CMD INSTALL --configure-args='--with-oci-inc=/opt/oracle/instantclient_11_2/sdk/include' ROracle_1.1-4.tar.gz
+wget http://cran.r-project.org/src/contrib/ROracle_1.1-5.tar.gz
+R CMD INSTALL --configure-args='--with-oci-inc=/opt/oracle/instantclient_11_2/sdk/include' ROracle_1.1-5.tar.gz
 ```
 
 ##### Install [RStudio Server](http://www.rstudio.org/download/server)
@@ -95,4 +95,10 @@ NLS_LANG=AMERICAN_AMERICA.AL32UTF8
 ```bash
 adduser --ingroup rstudio cindy
 passwd cindy # setting password
+```
+
+##### Update package
+
+```rconsole R in root to install system wide packages
+update.packages() # select mirror to check
 ```
