@@ -6,7 +6,7 @@ comments: true
 external-url:
 categories: [Windows7, eDevice]
 ---
-SSD is brilliant faster in random IO access; I have 5GB+ email which I searching on my daily job, all emails is a one big MS Outlook 2007 PST file. When I store this file in SSD, it takes less than 2 second to get the final result, but if I such file store in the the HDD, it takes 20+ second! So after I setup <a href="/2012/02/25/Install-log-for-my-next-3-years-working-PC.html">my new working PC</a>, I quite missing my SSD and finally decide to switch to us my 2 years old the SanDisk SSD.
+SSD is brilliant faster in random IO access; I have 5GB+ email which I searching on my daily job, all emails is a one big MS Outlook 2007 PST file. When I store this file in SSD, it takes less than 2 second to get the final result, but if I such file store in the the HDD, it takes 20+ second! So after I setup <a href="/2012/02/25/install-log-for-my-next-3-years-working-pc/">my new working PC</a>, I quite missing my SSD and finally decide to switch to us my 2 years old the SanDisk SSD.
 
 {% img /images/2012/sandisk_ssd_drive.jpg The Sandisk SSD to be install in Dell E6320 %}<!--more-->
 
