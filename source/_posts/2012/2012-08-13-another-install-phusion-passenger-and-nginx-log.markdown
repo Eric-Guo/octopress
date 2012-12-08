@@ -114,7 +114,7 @@ cd
 git clone https://github.com/jnstq/rails-nginx-passenger-ubuntu.git
 sudo mv rails-nginx-passenger-ubuntu/nginx/nginx /etc/init.d/nginx
 sudo chown root:root /etc/init.d/nginx
-sudo update-rc.d nginx defaults # enable nginx auto start
+sudo update-rc.d nginx defaults 87 # enable nginx auto start and 87 is startup number
 ```
 
 ```bash Configure nginx to enable vhosts (site by site configure file)
