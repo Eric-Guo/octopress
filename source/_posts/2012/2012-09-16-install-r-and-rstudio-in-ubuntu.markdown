@@ -32,8 +32,8 @@ You can found new version of [ROracle](http://cran.r-project.org/web/packages/RO
 ```bash manual install the ROracle
 wget http://cran.r-project.org/src/contrib/DBI_0.2-5.tar.gz
 R CMD INSTALL DBI_0.2-5.tar.gz
-wget http://cran.r-project.org/src/contrib/ROracle_1.1-5.tar.gz
-R CMD INSTALL --configure-args='--with-oci-inc=/opt/oracle/instantclient_11_2/sdk/include' ROracle_1.1-5.tar.gz
+wget http://cran.r-project.org/src/contrib/ROracle_1.1-7.tar.gz
+R CMD INSTALL --configure-args='--with-oci-inc=/opt/oracle/instantclient_11_2/sdk/include' ROracle_1.1-7.tar.gz
 ```
 
 ##### Install [RStudio Server](http://www.rstudio.org/download/server)
