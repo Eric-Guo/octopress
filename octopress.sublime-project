@@ -3,7 +3,7 @@
 	[
 		{
 			"path": ".",
-			"folder_exclude_patterns": ["public","_deploy",".themes",
+			"folder_exclude_patterns": [".yardoc","public","_deploy",".themes",
 			".bundle",".idea",".pygments-cache",".sass-cache",".gist-cache"],
 			"file_exclude_patterns": ["octopress.min.js","jquery.min.js","screen.css",".gitkeep","*.sublime-workspace","*.sqlite3*",".tags*",".gemtags"]
 		}
