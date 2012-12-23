@@ -12,7 +12,8 @@ Install R in Ubuntu is extremely easy if you don't meet any exception, but if yo
 ##### Install R
 Because the Ubuntu official source R version is usually half of years older than R-project official source, so it is recommanded to using [r-project.org official source](http://cran.r-project.org/bin/linux/ubuntu/README) to install the latest R system.
 
-```text vi /etc/apt/sources.list
+```bash add R source
+sudo vi /etc/apt/sources.list
 # append below line to end of sources.list
 # you can view mirror at http://cran.r-project.org/mirrors.html
 deb http://ftp.ctex.org/mirrors/CRAN/bin/linux/ubuntu precise/
@@ -38,7 +39,7 @@ R CMD INSTALL --configure-args='--with-oci-inc=/opt/oracle/instantclient_11_2/sd
 
 ##### Install [RStudio Server](http://www.rstudio.org/download/server)
 
-```bash
+```bash Install RStudio Server
 apt-get install libssl0.9.8 # must install even you have newer version
 apt-get install libapparmor1 apparmor-utils
 wget http://download2.rstudio.org/rstudio-server-0.96.331-i386.deb
@@ -48,7 +49,7 @@ rstudio-server verify-installation
 
 ##### Do some RStudio Server setting
 
-```bash
+```bash below setting depend on your system
 echo 'rsession-memory-limit-mb=1000' > /etc/rstudio/rserver.conf
 echo 'rsession-stack-limit-mb=4' >> /etc/rstudio/rserver.conf
 echo 'rsession-process-limit=20' >> /etc/rstudio/rserver.conf
@@ -61,7 +62,8 @@ groupadd rstudio
 
 This section is optional, assured already [install nginx](/2012/08/13/another-install-phusion-passenger-and-nginx-log/) in server.
 
-```nginx do not forgot link to /opt/nginx/conf/vhosts
+```nginx
+# do not forgot link to /opt/nginx/conf/vhosts
 server {
   listen       80;
   server_name  cvprstudio;
@@ -79,14 +81,15 @@ ln -s /usr/lib/rstudio-server/extras/init.d/debian/rstudio-server /etc/init.d/rs
 vi /etc/init.d/rstudio-server
 ```
 
-```text append below line to /etc/init.d/rstudio-server SCRIPTNAME
+```text vi
+# append below line to /usr/lib/rstudio-server/extras/init.d/debian/rstudio-server SCRIPTNAME
 ORACLE_BASE=/opt/oracle
 ORACLE_HOME=/opt/oracle/instantclient_11_2
 TNS_ADMIN=/opt/oracle/network/admin
 NLS_LANG=AMERICAN_AMERICA.AL32UTF8
 ```
 
-```bash Now you can restart/start via standard init.d service way
+```bash Now you can restart rstudio-server via standard init.d service way
 /etc/init.d/rstudio-server restart
 ```
 
