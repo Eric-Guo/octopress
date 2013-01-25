@@ -11,16 +11,47 @@ sidebar: false
 Skill Table
 -----------
 
-Technology|Level
----------:|:----
-C#|primary language since VS.NET 2003 up to C# 5.0 version
-VB.NET|use at version 5.0, but no use recently
-Oracle|daily use since 2007
-Python|co-author of [Micolog](https://github.com/xuming/micolog)
-Ruby|my favor language since 2012
-Crystal Report|daily use at work
-PowerShell|daily use at work to management MES Server
-Google App Engine|my [first blog](http://eric.cloud-mes.com/) using it
+<table>
+<tbody>
+<tr>
+<td align="right">Technology</td>
+<td align="left">Level</td>
+</tr>
+<tr>
+<td>C#</td>
+<td>primary language since VS.NET 2003 up to C# 5.0 version</td>
+</tr>
+<tr>
+<td>VB.NET</td>
+<td>use at VB 5.0, but no use recently</td>
+</tr>
+<tr>
+<td>Oracle</td>
+<td>daily use since 2007</td>
+</tr>
+<tr>
+<td>Python</td>
+<td>co-author of [Micolog](https://github.com/xuming/micolog)</td>
+</tr>
+<tr>
+<td>Ruby</td>
+<td>my favor language since 2012</td>
+</tr>
+<tr>
+<td>Crystal Report</td>
+<td>daily use at work since 2007, verions XI</td>
+</tr>
+<tr>
+<td>PowerShell</td>
+<td>daily use at work to management MES Server</td>
+</tr>
+<tr>
+<td>Google App Engine</td>
+<td>my <a href="http://eric.cloud-mes.com/">first blog</a> using it</td>
+</tr>
+</tbody>
+</table>
+
 <br/>
 
 Open Source Project
@@ -60,9 +91,27 @@ Tongji University Electronic Information Engineering Bachelor, GPA 4+
 `Control Theory, Embedded System, Digital Circuit, Analog Circuit, Communication & Network, CCNA training, VC++ programming`
 
 
-Contact Item|Info
------------:|:----
-email|[ecguo@outlook.com](mailto:ecguo@outlook.com?subject=Just read your resume at blog.cloud-mes.com)
-Mobile|13901862171
-Date of Birth|06/27/1981
-Other Info|[Facebook](https://www.facebook.com/ecguo)/[LinkedIn](http://cn.linkedin.com/pub/eric-guo/29/9a8/941)
+<table>
+<tbody>
+<tr>
+<td align="right">Contact Item</td>
+<td align="left">Info</td>
+</tr>
+<tr>
+<td>email</td>
+<td><a href="mailto:ecguo@outlook.com?subject=Just read your resume at blog.cloud-mes.com">ecguo@outlook.com</a></td>
+</tr>
+<tr>
+<td>Mobile</td>
+<td>13901862171</td>
+</tr>
+<tr>
+<td>Date of Birth</td>
+<td>06/27/1981</td>
+</tr>
+<tr>
+<td>Other Info</td>
+<td><a href="https://www.facebook.com/ecguo">Facebook</a>/<a href="http://cn.linkedin.com/pub/eric-guo/29/9a8/941">LinkedIn</a></td>
+</tr>
+</tbody>
+</table>
