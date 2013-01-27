@@ -7,11 +7,38 @@ external-url:
 categories: [Cloud]
 ---
 
-Resource|SAE|GAE|Unit of Measure|Rate
-:-------|:---:|:---:|:----------|:---
-Bandwidth|$0.37|$0.12|GByte|3.08
-CPU Time|$0.15|$0.10|CPU hour|1.5
-Store Data|$0.0077|$0.008|GByte per day|0.9625
+<table>
+<tbody>
+<tr>
+<td>Resource</td>
+<td>SAE</td>
+<td>GAE</td>
+<td>Unit of Measure</td>
+<td>Rate</td>
+</tr>
+<tr>
+<td>Bandwidth</td>
+<td>$0.37</td>
+<td>$0.12</td>
+<td>GByte</td>
+<td>3.08</td>
+</tr>
+<tr>
+<td>CPU Time</td>
+<td>$0.15</td>
+<td>$0.10</td>
+<td>CPU hour</td>
+<td>1.5</td>
+</tr>
+<tr>
+<td>Store Data</td>
+<td>$0.0077</td>
+<td>$0.008</td>
+<td>GByte per day</td>
+<td>0.9625</td>
+</tr>
+</tbody>
+</table>
 
 <br/>
 
