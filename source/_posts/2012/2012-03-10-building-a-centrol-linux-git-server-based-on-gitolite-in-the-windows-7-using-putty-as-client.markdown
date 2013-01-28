@@ -6,7 +6,9 @@ comments: true
 external-url:
 categories: [Git, Windows7, SSL]
 ---
-I'm using a Windows 7 as my working notebook and usually I use PuTTY as SSH client to linux machine. Recently my Boss plan to implement a dedicated SCM server using GIT and after do some internet research, I found some <a href="http://www.geekgumbo.com/2011/10/18/ssh-and-the-gitolite-installation-part-2/" target="_blank">blogs</a> saying do not using putty and gitolite together. Certainly, it is not true and here is how to build a dedicated centrol.<!--more-->
+I'm using a Windows 7 as my working notebook and usually I use PuTTY as SSH client to linux machine. Recently my Boss plan to implement a dedicated SCM server using GIT and after do some internet research, I found some <a href="http://www.geekgumbo.com/2011/10/18/ssh-and-the-gitolite-installation-part-2/" target="_blank">blogs</a> saying do not using putty and gitolite together. Certainly, it is not true and here is how to build a dedicated centrol.
+
+<!--more-->
 
 I assure you have already install the <a href="http://www.chiark.greenend.org.uk/%7Esgtatham/putty/download.html" target="_blank">PuTTY</a> (v0.62) and <a href="http://code.google.com/p/gitextensions/downloads/list" target="_blank">GIT Extension</a> (Complete edition already include KDiff3, msysGIT, no need install separately), you also already have a running linux server (using Ubuntu 10.04.4) and setting up the SSH and network ready and be able to login via PuTTY.
 

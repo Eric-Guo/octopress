@@ -8,7 +8,9 @@ categories: [Windows7, eDevice]
 ---
 IBM X60 is very legacy PC, very light and have active hard-drive protection so X60 is quite reliable. but due to its hard drive AHCI mode and no CD-ROM, it is really a nightmare when you plan to re-install the windows.
 
-But fortunately, you can use the USB disk to install the Windows 7 very easily and fast (no driver problem in windows 7 for X60), so the key problem for install the Windows 7 on X60 become how to build a bootable Windows 7 installation media on USB disk and how to successfully boot it in the X60 when startup.<!--more-->
+But fortunately, you can use the USB disk to install the Windows 7 very easily and fast (no driver problem in windows 7 for X60), so the key problem for install the Windows 7 on X60 become how to build a bootable Windows 7 installation media on USB disk and how to successfully boot it in the X60 when startup.
+
+<!--more-->
 
 First problem: you can use the UltraISO version 9.3+ version, select Bootable-&gt;Write Disk Image from the menu, using write method USB-ZIP+ to build a bootable and workable Windows 7 installation media.
 

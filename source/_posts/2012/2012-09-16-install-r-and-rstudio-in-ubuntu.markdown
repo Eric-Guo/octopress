@@ -7,6 +7,7 @@ external-url:
 categories: [R]
 ---
 Install R in Ubuntu is extremely easy if you don't meet any exception, but if you meet, then you'd better be a very advanced linux user :-)
+
 <!--more-->
 
 ##### Install R

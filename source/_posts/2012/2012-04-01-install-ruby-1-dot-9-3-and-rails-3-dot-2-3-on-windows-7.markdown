@@ -7,6 +7,7 @@ external-url:
 categories: [Ruby, Rails, Windows7]
 ---
 <a href="http://ruby-china.org/wiki/install_ruby_guide" target="_blank">Some blogs</a> says Windows is not a right platform to start Learning Ruby, maybe it's right, but anyway, I just successfully install the latest Ruby&amp;Rails web stack following below steps:
+
 <!--more-->
 
 <ol>

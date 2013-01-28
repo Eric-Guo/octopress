@@ -6,7 +6,9 @@ comments: true
 external-url:
 categories: [Tips, Windows7]
 ---
-Yesterday I just got a new notebook Dell E6320 as a working PC for the next 3 years, I would like to record down the hardware system configuration info and hoping it can be a interesting when we look back after 10 years. <!--more-->
+Yesterday I just got a new notebook Dell E6320 as a working PC for the next 3 years, I would like to record down the hardware system configuration info and hoping it can be a interesting when we look back after 10 years.
+
+<!--more-->
 
 <table>
 <tbody>

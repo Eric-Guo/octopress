@@ -10,7 +10,9 @@ Few months ago, my company decides and proceeds to upgrade our factory <a href="
 
 Every program which link to the MES system was upgrade side by side, one after another according to the project plan, it is barely smoothly according to the plan. Now, we will make MES system go live to the production in 2012/1/2 and it's the best time point as it is most idle time in a year and just following by Christmas and Chinese Spring Festival.
 
-But during last two weeks <a href="http://en.wikipedia.org/wiki/Acceptance_testing#User_acceptance_testing" target="_blank">UAT</a>, one of our user found the Travel Card (just the Crystal Reporting business alternative name, you can read it as a specially report) cannot output via printer, <!--more-->after check the one of the slowest Crystal Reporting, we can easily conclude that there is no program logic bug to block the Crystal Travel Card printing. It is just the reporting execution time is unreasonable long (more than 2 minutes to output the actual content).
+But during last two weeks <a href="http://en.wikipedia.org/wiki/Acceptance_testing#User_acceptance_testing" target="_blank">UAT</a>, one of our user found the Travel Card (just the Crystal Reporting business alternative name, you can read it as a specially report) cannot output via printer, after check the one of the slowest Crystal Reporting, we can easily conclude that there is no program logic bug to block the Crystal Travel Card printing. It is just the reporting execution time is unreasonable long (more than 2 minutes to output the actual content).
+
+<!--more-->
 
 The first came out guess is there must be some index missing, but after checking Performance Information (in the report menu) in Crystal Report, there is no SQL slow, the main report and all sub report are both running less than 50ms. Since the phenomenon is only appears in new database and after I try to set the reporting new Datasource Location (in the database menu), I have to suspect there must be something wrong in Crystal Report when switch the Datasource.
 

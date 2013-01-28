@@ -7,7 +7,9 @@ external-url:
 categories: [Rails, Linux]
 ---
 
-There is tons of good installation guide for Rails, but I still think it's reasonable to log my installation here as I will change it time to time to make this blog ever better.<!--more-->
+There is tons of good installation guide for Rails, but I still think it's reasonable to log my installation here as I will change it time to time to make this blog ever better.
+
+<!--more-->
 
 ## Part 1, Install Common Rails Passenger environment
 

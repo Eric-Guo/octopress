@@ -8,7 +8,9 @@ categories: [Ruby, RabbitMQ, Redis, MongoDB, Node.js]
 ---
 I just attend the CFOpenTour2012 in Shanghai yesterday; its a little surprise that tour didn't require any register fee although I always believe a small amount of register fee can help make audience more concertrate.
 
-Mark Lucovsky's opening keynotes is not shock me. Either I'm already tried the Cloud Foundry before the conference or I also run my blog in GAE. I didn't known Mark as familiar as Ballmer or Dave Cutler. But it do shock me after I check the Wikipedia that Mark is the one few guy who make Ballmer threw the chair. The web stack of Cloud Foundry are all open source, the method and system archtecutre of Mark's key notes final program, maybe name stac2 was very different with existing web application, it is totally spread to 20+ different vm server and seems quite scalable.<!--more-->
+Mark Lucovsky's opening keynotes is not shock me. Either I'm already tried the Cloud Foundry before the conference or I also run my blog in GAE. I didn't known Mark as familiar as Ballmer or Dave Cutler. But it do shock me after I check the Wikipedia that Mark is the one few guy who make Ballmer threw the chair. The web stack of Cloud Foundry are all open source, the method and system archtecutre of Mark's key notes final program, maybe name stac2 was very different with existing web application, it is totally spread to 20+ different vm server and seems quite scalable.
+
+<!--more-->
 
 Cloud Foundry seems funded entirely by VMWare, or EMC corporation and after check their open source project on github.com, I'm surprise it's openness. Open Source is good as long as the open source project find a sustainable business model and for the cloud foundry, I think VMware can funded their enough resource until it is totally mature similar to RedHat.
 

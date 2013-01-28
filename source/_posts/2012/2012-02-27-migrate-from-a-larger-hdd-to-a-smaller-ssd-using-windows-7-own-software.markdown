@@ -8,7 +8,9 @@ categories: [Windows7, eDevice]
 ---
 SSD is brilliant faster in random IO access; I have 5GB+ email which I searching on my daily job, all emails is a one big MS Outlook 2007 PST file. When I store this file in SSD, it takes less than 2 second to get the final result, but if I such file store in the the HDD, it takes 20+ second! So after I setup <a href="/2012/02/25/install-log-for-my-next-3-years-working-pc/">my new working PC</a>, I quite missing my SSD and finally decide to switch to us my 2 years old the SanDisk SSD.
 
-{% img /images/2012/sandisk_ssd_drive.jpg The Sandisk SSD to be install in Dell E6320 %}<!--more-->
+{% img /images/2012/sandisk_ssd_drive.jpg The Sandisk SSD to be install in Dell E6320 %}
+
+<!--more-->
 
 I read quite a lot of essay/blog/discuss via Google, and finally find one very clear and detail <a href="http://www.ssdfreaks.com/content/664/how-to-clone-hdd-to-ssd-with-windows-7s-own-software" target="_blank">Guide in SSD freaks</a>, in general, the migrate path is quite clean, Install the whole system in HDD, do disk defrag (recommand using <a href="http://www.raxco.com/business/professional.aspx" target="_blank">Perfect Disk</a> which provide 30 day trail, which is enough.) and put all files in front of the C system drive. The latest file position is the maximum allowed to shrink position, so you must shrink the C drive below the total capacity size of the SSD. Only by that, it is possible to restore the whole Windows 7 system back to the SSD.
 

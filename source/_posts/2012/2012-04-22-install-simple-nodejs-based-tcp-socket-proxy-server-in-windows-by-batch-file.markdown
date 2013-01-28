@@ -8,7 +8,9 @@ categories: [Node.js]
 ---
 In my working Semiconductor factory, some of the machine is heavily protected by network isolate (You can image those machine a very frangible PC which have no windows update turn on), the network is so isolate that only certain bridge PC can connect in both inside intranet and outside - still intranet. To make things even worse, the isolated network is nested; the real machine need cross two level bridge PC to reach the application server.
 
-That's why we need many proxy server to relay the network between Client/Server<!--more-->, we need a TCP proxy server as the application protocol is based on TCP, if we didn't use proxy server, another option maybe port redirection, quite typical feature/usage in Linux via iptables, but the bridge server is running Windows, so finally, I still turn to the proxy server approach.
+<!--more-->
+
+That's why we need many proxy server to relay the network between Client/Server, we need a TCP proxy server as the application protocol is based on TCP, if we didn't use proxy server, another option maybe port redirection, quite typical feature/usage in Linux via iptables, but the bridge server is running Windows, so finally, I still turn to the proxy server approach.
 
 I research many different program in Windows, I have to say <a href="http://delog.wordpress.com/2011/04/08/a-simple-tcp-proxy-in-node-js/" target="_blank">using Node.js to write a tcp socket proxy</a> is coolest and here is my batch file (consider the number of installation is large and no ruby/python runtime, batch file is fittest) to install that service in bridge PC:
 

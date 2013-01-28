@@ -6,7 +6,9 @@ comments: true
 external-url:
 categories: [Crystal Report, Windows7]
 ---
-I written a post about <a href="/2011/12/18/true-story-about-upgrade-crystal-report-from-oracle-9i-to-11g">upgrade CR (Crystal Report) from Oracle 9i to Oracle 11gR2</a> one month ago, at that post, I talked about how different version of Oracle Database make Crystal Report migrate tough/broken and how I have solving those problem. After the Crystal Report Travel Card (T-Card) online this month, I also meet some problem relative with the Windows Server, which I think also very interesting and hoping you will enjoy the story.<!--more-->
+I written a post about <a href="/2011/12/18/true-story-about-upgrade-crystal-report-from-oracle-9i-to-11g">upgrade CR (Crystal Report) from Oracle 9i to Oracle 11gR2</a> one month ago, at that post, I talked about how different version of Oracle Database make Crystal Report migrate tough/broken and how I have solving those problem. After the Crystal Report Travel Card (T-Card) online this month, I also meet some problem relative with the Windows Server, which I think also very interesting and hoping you will enjoy the story.
+
+<!--more-->
 
 After make sure all the T-Card printed properly in the test environment, I start install the whole MES Travel Card printing system on the production which will be used on 1/2/2012 to our production environment. There is hundreds of printer; user can use any of the printers which are near him to output the paper Travel Card in the MES system. During the UAT, user tested some T-Card to output to their printer and suddenly I found that production environment T-Card printing system can only output the T-Card in test printer.
 

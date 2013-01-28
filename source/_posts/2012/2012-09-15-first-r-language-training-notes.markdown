@@ -6,7 +6,9 @@ comments: true
 external-url:
 categories: [R]
 ---
-Very thanks to TopGeek and Capital of Statistics given this [R lecture](http://t.cn/zlPei2T), as part of Seven Languages in Seven Weeks, the [R language](http://w773.51qiangzuo.com/) is more unique than the [original Pragmatic book](http://pragprog.com/book/btlang/seven-languages-in-seven-weeks) language Prolog. <!--more-->
+Very thanks to TopGeek and Capital of Statistics given this [R lecture](http://t.cn/zlPei2T), as part of Seven Languages in Seven Weeks, the [R language](http://w773.51qiangzuo.com/) is more unique than the [original Pragmatic book](http://pragprog.com/book/btlang/seven-languages-in-seven-weeks) language Prolog.
+
+<!--more-->
 
 ##### Principle:
 

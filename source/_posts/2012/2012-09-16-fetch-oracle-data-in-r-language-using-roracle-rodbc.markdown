@@ -6,7 +6,9 @@ comments: true
 external-url:
 categories: [R]
 ---
-Inspired by [Nathan Yau's tutorials - How to Make Bubble Charts](http://flowingdata.com/2010/11/23/how-to-make-bubble-charts/), fetch the data directly from Oracle. <!--more-->
+Inspired by [Nathan Yau's tutorials - How to Make Bubble Charts](http://flowingdata.com/2010/11/23/how-to-make-bubble-charts/), fetch the data directly from Oracle.
+
+<!--more-->
 
 Using ROracle to link, notice [ROracle can only be installed on Linux](/2012/09/16/install-r-and-rstudio-in-ubuntu/), so if you are in Windows, have to use RODBC instead of ROracle.
 

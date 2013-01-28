@@ -9,7 +9,9 @@ categories: [PowerShell]
 ```powershell
 gci *.pdf | % {iex $("rar mf -m5 -rr1 {0}.rar '{1}'" -f $($_.BaseName -replace "\s+","."),$_.Name)}
 ```
+
 <!--more-->
+
 Here is some explain:
 
 * gci is Alias of Get-ChildItem
