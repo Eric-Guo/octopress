@@ -7,7 +7,7 @@ external-url:
 categories: [Ruby, Rails, Windows7]
 ---
 
-10 months ago, I start my Ruby & Rails life, [install method at that time](/2012/04/01/install-ruby-1-dot-9-3-and-rails-3-dot-2-3-on-windows-7/) is greatly improve after that. So here is another more professional way to install Ruby & Rails in Windows:
+10 months ago, I start my Ruby & Rails life, [installation method at that time](/2012/04/01/install-ruby-1-dot-9-3-and-rails-3-dot-2-3-on-windows-7/) is greatly improve after that time, the Rails Installer also seems stop maintain since then. So here is another more professional way to install Ruby & Rails in Windows:
 
 <!--more-->
 
@@ -52,3 +52,5 @@ categories: [Ruby, Rails, Windows7]
 	```
 
 13. Install [RubyMine](http://www.jetbrains.com/ruby/download/index.html), open `C:\git\pl-form` as Directory and then click Debug(Shift-F9) to install relative debug gems.
+
+#### Congratulation, now you are now professional rubyist in Windows now!
