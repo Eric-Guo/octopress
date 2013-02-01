@@ -10,7 +10,7 @@ Inspired by [Nathan Yau's tutorials - How to Make Bubble Charts](http://flowingd
 
 <!--more-->
 
-Using ROracle to link, notice [ROracle can only be installed on Linux](/2012/09/16/install-r-and-rstudio-in-ubuntu/), so if you are in Windows, have to use RODBC instead of ROracle.
+Using ROracle to link, notice [ROracle can be installed on Linux](/2012/09/16/install-r-and-rstudio-in-ubuntu/) or windows, but if you are in Windows, you have to download [ROracle](http://www.oracle.com/technetwork/database/options/advanced-analytics/r-enterprise/ore-downloads-1502823.html) from [Oracle R enterprise site](http://www.oracle.com/technetwork/database/options/advanced-analytics/r-enterprise/index.html) instead of building yourself.
 
 ```r PN_Circles.R
 library(ROracle)
