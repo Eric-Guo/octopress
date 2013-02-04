@@ -224,7 +224,7 @@ include /etc/ld.so.conf.d/*.conf
 ldconfig
 ```
 
-Do not forget to config `tnsnames.ora` at `/opt/oracle/network/admin` and running `sqlplus` to ensure oracle client can link to the database correctly.
+Do not forget to config `tnsnames.ora` at `/opt/oracle/instantclient_11_2/network/admin` and running `sqlplus` to ensure oracle client can link to the database correctly.
 
 ```bash install ruby-oci8 gems now
 gem install ruby-oci8 # should be no any error here :-)
