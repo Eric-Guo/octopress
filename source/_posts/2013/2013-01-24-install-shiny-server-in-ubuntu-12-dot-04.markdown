@@ -10,11 +10,12 @@ R package [Shiny](http://cran.r-project.org/web/packages/shiny/index.html) origi
 
 ```bash install shiny package for R Studio
 cd ~
-wget http://cran.r-project.org/src/contrib/shiny_0.3.0.tar.gz
-tar xvfz shiny_0.3.0.tar.gz
+# seems official site is block http://cran.r-project.org/src/contrib/shiny_0.4.0.tar.gz
+wget http://cran.ism.ac.jp/src/contrib/shiny_0.4.0.tar.gz
+tar xvfz shiny_0.4.0.tar.gz
 vi shiny/R/shiny.R # search localhost and replace to your rstudio host name
-tar cvf shiny_0.3.0-server.tar.gz shiny
-R CMD INSTALL shiny_0.3.0-server.tar.gz
+tar cvf shiny_0.4.0-server.tar.gz shiny
+R CMD INSTALL shiny_0.4.0-server.tar.gz
 ```
 
 Before install shiny server, make sure you install node.js version 0.8.17 or higher and meet [prerequisites](https://github.com/rstudio/shiny-server#prerequisites).
