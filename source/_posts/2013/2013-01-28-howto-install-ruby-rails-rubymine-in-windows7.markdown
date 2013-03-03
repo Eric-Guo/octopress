@@ -53,4 +53,11 @@ categories: [Ruby, Rails, Windows7]
 
 13. Install [RubyMine](http://www.jetbrains.com/ruby/download/index.html), open `C:\git\pl-form` as Directory and then click Debug(Shift-F9) to install relative debug gems.
 
+14. Patch webbrick [httpresponse.rb file](file://C:/Ruby193/lib/ruby/1.9.1/webrick/httpresponse.rb) line 204:
+
+    ```ruby
+        #if chunked? || @header['content-length']
+        if chunked? || @header['content-length'] || @status == 304 || @status == 204
+    ```
+
 #### Congratulation, now you are now professional rubyist in Windows now!
