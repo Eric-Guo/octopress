@@ -15,7 +15,7 @@ categories: [Ruby, Rails, Windows7]
 
 2. Install RubyInstaller at `C:\Ruby193` (must Driver C, other will cause some sophisticated problem in windows).
 
-3. Install DevKit at `C:\DevKit`.
+3. Extract DevKit.exe to `C:\DevKit`.
 
 4. Binding the DevKit to Ruby:
 
