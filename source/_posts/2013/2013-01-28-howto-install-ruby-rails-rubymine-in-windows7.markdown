@@ -29,7 +29,7 @@ categories: [Ruby, Rails, Windows7]
 
 6. Change `Programs\Ruby 1.9.3-p374\Start Command Prompt with Ruby` shortcut properties, append `C:\Windows\ansicon.exe ` at the begining to Shortcut->Target.
 
-7. Install [GitExtensions](http://code.google.com/p/gitextensions/downloads/list), version 2.33 Setup Complete recommand but other version may also very stable.
+7. Install [GitExtensions](http://code.google.com/p/gitextensions/downloads/list), version 2.44 Setup Complete recommand but other version may also very stable, if you download not Complete version, also need to install [msysgit](http://code.google.com/p/msysgit/downloads/list) and [kdiff3](http://kdiff3.sourceforge.net/).
 
 8. Install [node.js](http://nodejs.org/), latest version, which need by some gems like [execjs](https://github.com/sstephenson/execjs#readme).
 
