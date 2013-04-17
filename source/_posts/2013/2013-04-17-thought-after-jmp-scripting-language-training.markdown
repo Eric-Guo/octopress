@@ -13,6 +13,6 @@ The most amazing part of JSL script is the funtion `Expr`, `Insert Into` and `Na
 
 So the JSL and R in the language level, share a lot about theoretical language feature/design priciple, although there is also quite a lot syntax detail difference.
 
-On the other hand, the JMP and R design priciple in User Interface part is totally different, JMP is a totall interactive, click-select-OK-repert windows application while the R is even no GUI windows by default.
+On the other hand, the JMP and R design priciple in User Interface part is totally different, JMP is a totall interactive, click-select-OK-repeat windows application while the R is even no GUI windows by default.
 
 So JMP and R is the best gay friend in each other in my option, you start explore and found the suitable math model/chart in JMP, after you confident that you have a more clear/stable solution, you using R as a implement tools to building free solution, so you got the best part of each other: JMP for its excellent UI and interactive workflow; R for its totally free license and be able to [export it's program as a web application](http://www.rstudio.com/shiny/).
