@@ -32,10 +32,10 @@ apt-get install r-base
 You can found new version of [ROracle](http://cran.r-project.org/web/packages/ROracle/index.html) or [DBI](http://cran.r-project.org/web/packages/DBI/index.html) package in [CRAN](http://cran.r-project.org/index.html), it is also required you [properly install the Oracle Instant Client](/2012/08/13/another-install-phusion-passenger-and-nginx-log/).
 
 ```bash manual install the ROracle
-wget http://cran.r-project.org/src/contrib/DBI_0.2-5.tar.gz
-R CMD INSTALL DBI_0.2-5.tar.gz
-wget http://cran.r-project.org/src/contrib/ROracle_1.1-7.tar.gz
-R CMD INSTALL --configure-args='--with-oci-inc=/opt/oracle/instantclient_11_2/sdk/include --with-oci-lib=/opt/oracle/instantclient_11_2' ROracle_1.1-7.tar.gz
+wget http://cran.r-project.org/src/contrib/DBI_0.2-7.tar.gz
+R CMD INSTALL DBI_0.2-7.tar.gz
+wget http://cran.r-project.org/src/contrib/ROracle_1.1-10.tar.gz
+R CMD INSTALL --configure-args='--with-oci-inc=/opt/oracle/instantclient_11_2/sdk/include --with-oci-lib=/opt/oracle/instantclient_11_2' ROracle_1.1-10.tar.gz
 ```
 
 ##### Install [RStudio Server](http://www.rstudio.org/download/server)
