@@ -29,7 +29,7 @@ Finally, I go to ruby 2.0, after the first patch p195 release, roughly three mon
 - http://ruby.taobao.org
 :update_sources: true
 :verbose: true
-gem: --no-ri --no-rdoc --platform=ruby
+gem: --no-document --platform=ruby
 ```
 
 3. You may want to comment out the "DL is deprecated, please use Fiddle" warning at `C:\Ruby200\lib\ruby\2.0.0\dl.rb` since it's annoy and you are not the irb/pry or some other gems code owner...
