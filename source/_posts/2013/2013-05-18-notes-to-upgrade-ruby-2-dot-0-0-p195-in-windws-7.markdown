@@ -18,7 +18,7 @@ Finally, I go to ruby 2.0, after the first patch p195 release, roughly three mon
     5. c:\Temp>gem install sqlite3 --platform=ruby -- --with-opt-dir=C:/Temp
 
 
-2. Using below .gemrc and reinstall the gems like [yajl-ruby](https://rubygems.org/gems/yajl-ruby) if you found the x86-mingw32 version can not work out of box.
+2. Using below .gemrc and reinstall the gems like [yajl-ruby](https://rubygems.org/gems/yajl-ruby), [win32console](https://rubygems.org/gems/win32console) or [bcrypt-ruby](https://rubygems.org/gems/bcrypt-ruby) if you found the x86-mingw32 version can not work out of box.
 
 ```yaml edit/create the .gemrc as below content
 ---
@@ -31,5 +31,7 @@ Finally, I go to ruby 2.0, after the first patch p195 release, roughly three mon
 :verbose: true
 gem: --no-ri --no-rdoc --platform=ruby
 ```
+
+3. You may want to comment out the "DL is deprecated, please use Fiddle" warning at `C:\Ruby200\lib\ruby\2.0.0\dl.rb` since it's annoy and you are not the irb/pry or some other gems code owner...
 
 [Ruby 2.0 performance](http://jp.rubyist.net/magazine/?Ruby200SpecialEn) is somewhat improved and it's worth to using it right now.
