@@ -11,11 +11,11 @@ Finally, I go to ruby 2.0, after the first patch p195 release, roughly three mon
 
 1. Need manually install the sqlite3.
 
-    1. run C:\DevKit\devkitvars.bat
-    2. mkdir c:\temp
+    1. run `C:\DevKit\devkitvars.bat`
+    2. `mkdir c:\temp`
     3. download http://packages.openknapsack.org/sqlite/sqlite-3.7.15.2-x86-windows.tar.lzma to c:\temp
-    4. c:\Temp>bsdtar --lzma -xf sqlite-3.7.15.2-x86-windows.tar.lzma
-    5. c:\Temp>gem install sqlite3 --platform=ruby -- --with-opt-dir=C:/Temp
+    4. c:\Temp>`bsdtar --lzma -xf sqlite-3.7.15.2-x86-windows.tar.lzma`
+    5. c:\Temp>`gem install sqlite3 --platform=ruby -- --with-opt-dir=C:/Temp`
 
 
 2. Using below .gemrc and reinstall the gems like [yajl-ruby](https://rubygems.org/gems/yajl-ruby), [win32console](https://rubygems.org/gems/win32console) or [bcrypt-ruby](https://rubygems.org/gems/bcrypt-ruby) if you found the x86-mingw32 version can not work out of box.
