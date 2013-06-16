@@ -29,7 +29,7 @@ apt-get install r-base
 ```
 
 ##### Install Oracle DB access package
-You can found new version of [ROracle](http://cran.r-project.org/web/packages/ROracle/index.html) or [DBI](http://cran.r-project.org/web/packages/DBI/index.html) package in [CRAN](http://cran.r-project.org/index.html), it is also required you [properly install the Oracle Instant Client](/2012/08/13/another-install-phusion-passenger-and-nginx-log/).
+ROracle is much faster compare with RODBC or RJDBC in [performance](https://blogs.oracle.com/R/entry/r_to_oracle_database_connectivity), You can found new version of [ROracle](http://cran.r-project.org/web/packages/ROracle/index.html) or [DBI](http://cran.r-project.org/web/packages/DBI/index.html) package in [CRAN](http://cran.r-project.org/index.html), it is also required you [properly install the Oracle Instant Client](/2012/08/13/another-install-phusion-passenger-and-nginx-log/).
 
 ```bash manual install the ROracle
 wget http://cran.r-project.org/src/contrib/DBI_0.2-7.tar.gz
