@@ -41,10 +41,10 @@ R CMD INSTALL --configure-args='--with-oci-inc=/opt/oracle/instantclient_11_2/sd
 ##### Install [RStudio Server](http://www.rstudio.org/download/server)
 
 ```bash Install RStudio Server
-apt-get install libssl0.9.8 # must install even you have newer version
-apt-get install libapparmor1 apparmor-utils
-wget http://download2.rstudio.org/rstudio-server-0.96.331-i386.deb
-dpkg -i rstudio-server-0.96.331-i386.deb
+apt-get install gdebi-core
+apt-get install libapparmor1  # Required only for Ubuntu, not Debian
+wget http://download2.rstudio.org/rstudio-server-0.97.551-i386.deb
+gdebi rstudio-server-0.97.551-i386.deb
 rstudio-server verify-installation
 ```
 
