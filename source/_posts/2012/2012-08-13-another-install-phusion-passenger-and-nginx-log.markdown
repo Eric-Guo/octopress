@@ -123,7 +123,9 @@ sudo update-rc.d nginx defaults 87 # enable nginx auto start and 87 is startup n
 logout # as root now
 mkdir -p include /opt/nginx/conf/vhosts/
 chmod 755 /opt/nginx/conf/vhosts/
-vi /opt/nginx/conf/nginx.conf # append 'include /opt/nginx/conf/vhosts/*;' before last }
+vi /opt/nginx/conf/nginx.conf
+# comments out all configure entry in server section since you add below
+# append 'include /opt/nginx/conf/vhosts/*;' before last } (the http section)
 ```
 
 You may also want to set some [Passenger parameter](http://www.modrails.com/documentation/Users%20guide%20Nginx.html#_configuring_phusion_passenger) like `passenger_max_pool_size 15;` according to your system status.
