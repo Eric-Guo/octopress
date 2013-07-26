@@ -1,0 +1,31 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"octopress.min.js",
+				"jquery.min.js",
+				"screen.css",
+				".gitkeep",
+				"*.sublime-workspace",
+				"*.sqlite3*",
+				".tags*",
+				".gemtags"
+			],
+			"folder_exclude_patterns":
+			[
+				".yardoc",
+				"public",
+				"_deploy",
+				".themes",
+				".bundle",
+				".idea",
+				".pygments-cache",
+				".sass-cache",
+				".gist-cache"
+			],
+			"path": "."
+		}
+	]
+}

@@ -19,3 +19,5 @@ node_modules
 /config/deploy.yml
 /coverage/
 *.gem
+
+*.sublime-workspace
