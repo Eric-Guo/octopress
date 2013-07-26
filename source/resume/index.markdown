@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Dreaming to build a Cloud MES and keep it Open Source"
-date: 2012-08-16 19:40
+title: "Web stack in Ruby&Rails and Node.js after .NET"
+date: 2013-07-25 19:40
 comments: false
 sharing: false
 footer: false
@@ -31,11 +31,11 @@ Skill Table
 </tr>
 <tr>
 <td>Python</td>
-<td>co-author of [Micolog](https://github.com/xuming/micolog)</td>
+<td>co-author of <a href="https://github.com/xuming/micolog">Micolog</a></td>
 </tr>
 <tr>
 <td>Ruby</td>
-<td>my favor language since 2012</td>
+<td>my favor language since 2012 and now have 4 production application based on it</td>
 </tr>
 <tr>
 <td>Crystal Report</td>
@@ -48,6 +48,18 @@ Skill Table
 <tr>
 <td>Google App Engine</td>
 <td>my <a href="http://eric.cloud-mes.com/">first blog</a> using it</td>
+</tr>
+<tr>
+<td>Node.js</td>
+<td>my next/finally serious language after attending <a href="https://www.coursera.org/course/startup">Startup Engineering</a></td>
+</tr>
+<tr>
+<td>R</td>
+<td>After attend 6 months <a href="http://www.dataguru.cn/article-2614-1.html">training class</a>, still slowly using R dairly instead of Excel</td>
+</tr>
+<tr>
+<td>AWS</td>
+<td>Just using it three month ago</td>
 </tr>
 </tbody>
 </table>
@@ -65,10 +77,10 @@ Working Experience
 
 ##### Work as a Business Systems Analyst, working scope including:
 
-* MES system customize/enhanced/tuning and daily support
+* MES system customize/enhanced/tuning and daily support (also training support engineer)
 * MES Integration with SAP
-* Each manufacturing step recipe program logic implement
-* Travel Card in Crystal Report
+* Each manufacturing step recipe program logic implement and maintain
+* Travel Card in Crystal Report and new rewrite it in Rails 4
 * Design from scratch for some SDSS non-critical application in Ruby & Rails like Spare Part and Paper-Less forms
 
 #### 2007/06~2009/06 @ Technology Resource Group Ltd.
