@@ -24,3 +24,9 @@ Just attend company training and below is quick notes/tips coming from trainer.
 * Multi Text upper side text and down side text should using stack
 * x/400 x is longest line in demension, 14000/400=40
 * Change line type, show detail to adjust the line Global scale factor if the dash style is too small to display completely.
+* You can turn off InfoCenter by change Windows Registry:
+
+```ini
+[HKEY_CURRENT_USER\Software\Autodesk\AutoCAD\R19.1\ACAD-D005:409\InfoCenter]
+"InfoCenterOn"=dword:00000000
+```
