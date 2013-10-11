@@ -12,7 +12,8 @@ categories: [R]
 * [sqldf](http://cran.r-project.org/web/packages/sqldf/) - Perform SQL Selects on R Data Frames
 * [tseries](http://cran.r-project.org/web/packages/tseries/) - Time series analysis and computational finance
 * [quantmod](http://cran.r-project.org/web/packages/quantmod/) - Quantitative Financial Modeling Framework
-* [rJava](http://cran.r-project.org/web/packages/rJava/) - Low-level R to Java interface
+* [doBy](http://cran.r-project.org/web/packages/doBy/) -  Groupwise summary statistics, general linear contrasts, population means (least-squares-means), and other utilities
+* [xlsx](http://cran.r-project.org/web/packages/xlsx/) - Read, write, format Excel 2007 and Excel 97/2000/XP/2003 files
 * [shiny](http://cran.r-project.org/web/packages/shiny/) - Web Application Framework for R
 * [devtools](http://cran.r-project.org/web/packages/devtools/) - Tools to make developing R code easier
 * [gplots](http://cran.r-project.org/web/packages/gplots/) - Various R programming tools for plotting data
