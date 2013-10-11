@@ -35,3 +35,5 @@ gem: --no-document --platform=ruby
 3. You may want to comment out the "DL is deprecated, please use Fiddle" warning at `C:\Ruby200\lib\ruby\2.0.0\dl.rb` since it's annoy and you are not the irb/pry or some other gems code owner...
 
 [Ruby 2.0 performance](http://jp.rubyist.net/magazine/?Ruby200SpecialEn) is somewhat improved and it's worth to using it right now.
+
+4. Create Environment Variable SSL_CERT_FILE and point to [cacert.pem](http://curl.haxx.se/ca/cacert.pem), example `C:\Ruby200\cacert.pem`.
