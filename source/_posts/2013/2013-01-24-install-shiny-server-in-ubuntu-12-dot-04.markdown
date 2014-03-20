@@ -37,3 +37,21 @@ mv shiny-server-0.3.0.tgz ..
 cd ..
 npm install --no-registry -g shiny-server-0.3.0.tgz
 ```
+
+The sample shiny server config file.
+
+```nginx
+run_as shiny;
+log_dir /var/log/shiny-server/;
+server {
+  listen 3838 127.0.0.1;
+
+  location /first {
+    app_dir /var/shiny-server/first;
+  }
+
+  location /diamonds {
+    app_dir /var/shiny-server/diamonds;
+  }
+}
+```
