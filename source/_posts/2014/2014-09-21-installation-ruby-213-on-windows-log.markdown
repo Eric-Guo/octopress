@@ -21,3 +21,16 @@ Except simply install the ruby 2.1.3 from [rubyinstaller](http://rubyinstaller.o
     5. c:\Temp>`gem install sqlite3 --platform=ruby -- --with-opt-dir=C:/Temp`
 1. Install bcrypt via `gem install bcrypt --platform ruby`
 1. Install win32console via `gem install win32console --platform ruby`
+1. Install ffi via `gem install ffi --platform ruby`
+1. Install pg via `gem install pg --platform ruby`
+1. Install mysql following [stackoverflow](http://stackoverflow.com/questions/19014117/ruby-mysql2-gem-installation-on-windows-7)
+
+Setting global environment setting:
+
+```ini
+CURL_CA_BUNDLE=C:\Ruby21\share\ca-bundle.crt
+SSL_CERT_FILE=C:\Ruby21\share\cacert.pem
+NLS_LANG=AMERICAN_AMERICA.UTF8
+```
+
+Also do not using ansicon in ruby 2.1.3 any more, seems not compatible.
