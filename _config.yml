@@ -41,7 +41,7 @@ include:
   - .htaccess
 markdown: redcarpet
 redcarpet:
-  extensions: 
+  extensions:
     - no_intra_emphasis
     - strikethrough
     - autolink
@@ -87,10 +87,9 @@ github_skip_forks: true
 # Twitter
 twitter_user:
 twitter_tweet_count: 4
-twitter_show_replies: false
+twitter_widget_id:  # apply widget id from https://twitter.com/settings/widgets/new
 twitter_follow_button: true
 twitter_show_follower_count: false
-twitter_tweet_button: true
 
 # Google +1
 google_plus_one: false
