@@ -17,7 +17,7 @@ categories: [Ruby, Rails, Windows7]
 
 3. Extract DevKit.exe to `C:\DevKit`.
 
-4. Binding the DevKit to Ruby:
+4. Binding the DevKit to Ruby, [in order to install C extension gems later](http://rubyinstaller.org/add-ons/devkit/):
 
 	```bat
 	C:\git>cd \devkit
@@ -42,7 +42,7 @@ categories: [Ruby, Rails, Windows7]
 12. Install RubyGems by below command
 
 	```bat
-	C:\git>gem upgrade –system
+	C:\git>gem update --system
 	C:\git>gem upgrade
 	C:\git>gem install pry-debugger
 	C:\git>gem install bundle
