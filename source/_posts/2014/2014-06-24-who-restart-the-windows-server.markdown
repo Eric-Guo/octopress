@@ -4,7 +4,7 @@ title: "Who restart the windows server"
 date: 2014-06-24T10:04:24+08:00
 comments: true
 external-url:
-categories:
+categories: [Windows7]
 ---
 
 Just from the [serverfault](http://serverfault.com/questions/383335/who-restarted-my-windows-server).
