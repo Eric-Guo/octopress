@@ -92,7 +92,7 @@ weibo_uid: ecguo
 # Twitter
 twitter_user: ecguo
 twitter_tweet_count: 5
-twitter_widget_id:  # apply widget id from https://twitter.com/settings/widgets/new
+twitter_widget_id: 517583890177748992
 twitter_follow_button: true
 twitter_show_follower_count: false
 
