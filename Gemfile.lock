@@ -20,8 +20,7 @@ GEM
       sass (>= 3.2, < 3.5)
     directory_watcher (1.5.1)
     fast-stemmer (1.0.2)
-    ffi (1.9.5)
-    ffi (1.9.5-x86-mingw32)
+    ffi (1.9.6)
     haml (4.0.5)
       tilt
     jekyll (0.12.1)
