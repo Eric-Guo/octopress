@@ -18,9 +18,9 @@ Now you need using updated version of [rake-compiler](https://rubygems.org/gems/
 
 Now we can running `rake package` and it should generate the *updated* 1.0.3 gem file you need, but before that you need another depend lzma package mentioned in [Ruby Installer Google Group](https://groups.google.com/forum/#!topic/rubyinstaller/e1DdfLy6-J0), I only tested [x86](http://packages.openknapsack.org/openssl/openssl-1.0.0m-x86-windows.tar.lzma) but the [x64](http://packages.openknapsack.org/openssl/openssl-1.0.0m-x64-windows.tar.lzma) should be same.
 
-1. Put the download openssl-1.0.0m-x86-windows.tar.lzma to `c:\temp`
+1. Put the download [openssl-1.0.0m-x86-windows.tar.lzma](http://packages.openknapsack.org/openssl/openssl-1.0.0m-x86-windows.tar.lzma) to `c:\temp`
 2. run `C:\DevKit\devkitvars.bat`
-3. c:\Temp> `bsdtar --lzma -xf sqlite-3.7.15.2-x86-windows.tar.lzma`
+3. c:\Temp> `bsdtar --lzma -xf openssl-1.0.0m-x86-windows.tar.lzma`
 4. c:\git\eventmachine\pkg> `gem install ./eventmachine-1.0.3.gem  --platform=ruby -- --with-opt-dir=C:/Temp`
 
 Now enjoy eventmachine on ruby 2.1.3 windows!
