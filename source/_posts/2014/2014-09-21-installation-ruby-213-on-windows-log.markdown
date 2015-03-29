@@ -23,7 +23,7 @@ Except simply install the ruby 2.1.3 from [rubyinstaller](http://rubyinstaller.o
 1. Install win32console via `gem install win32console --platform ruby`
 1. Install ffi via `gem install ffi --platform ruby`
 1. Install pg via `gem install pg --platform ruby`
-1. Install mysql following [stackoverflow](http://stackoverflow.com/questions/19014117/ruby-mysql2-gem-installation-on-windows-7)
+1. Install mysql following [stackoverflow](http://stackoverflow.com/questions/19014117/ruby-mysql2-gem-installation-on-windows-7) via `gem install mysql2 --platform=ruby -- '--with-mysql-dir="C:\mysql-connector"'`
 1. [Install](https://github.com/hicknhack-software/rails-disco/wiki/Installing-puma-on-windows) puma via `gem install puma -- --with-opt-dir=c:\temp`
 
 Setting global environment setting:
