@@ -18,28 +18,40 @@ Skill Table
 <td align="left">Level</td>
 </tr>
 <tr>
+<td>Ruby</td>
+<td>my favor language since 2012 and now running 8 production application based on Rails 4</td>
+</tr>
+<tr>
 <td>C#</td>
-<td>primary language since VS.NET 2003 up to C# 5.0 version</td>
+<td>primary language since VS.NET 2003 up to C# 5.0</td>
 </tr>
 <tr>
 <td>VB.NET</td>
 <td>use at VB 5.0, but no use recently</td>
 </tr>
 <tr>
+<tr>
+<td>R</td>
+<td>After attend 6 months <a href="http://www.dataguru.cn/article-2614-1.html">training class</a>, still slowly using R dairly instead of Excel</td>
+</tr>
+<tr>
+<td>Node.js</td>
+<td>my next/finally serious language after attending <a href="https://www.coursera.org/course/startup">Startup Engineering</a></td>
+</tr>
 <td>Oracle</td>
 <td>daily use since 2007</td>
+</tr>
+<tr>
+<td>PostgreSQL</td>
+<td>Using in spare time project since 2013</td>
 </tr>
 <tr>
 <td>Python</td>
 <td>co-author of <a href="https://github.com/xuming/micolog">Micolog</a></td>
 </tr>
 <tr>
-<td>Ruby</td>
-<td>my favor language since 2012 and now have 4 production application based on it</td>
-</tr>
-<tr>
 <td>Crystal Report</td>
-<td>daily use at work since 2007, verions XI</td>
+<td>daily use at work since 2007, version XI</td>
 </tr>
 <tr>
 <td>PowerShell</td>
@@ -50,16 +62,8 @@ Skill Table
 <td>my <a href="http://eric.cloud-mes.com/">first blog</a> using it</td>
 </tr>
 <tr>
-<td>Node.js</td>
-<td>my next/finally serious language after attending <a href="https://www.coursera.org/course/startup">Startup Engineering</a></td>
-</tr>
-<tr>
-<td>R</td>
-<td>After attend 6 months <a href="http://www.dataguru.cn/article-2614-1.html">training class</a>, still slowly using R dairly instead of Excel</td>
-</tr>
-<tr>
 <td>AWS</td>
-<td>Just using it three month ago</td>
+<td>Being customer and running micro t1 2 years</td>
 </tr>
 </tbody>
 </table>
@@ -68,7 +72,11 @@ Skill Table
 
 Open Source Project
 -------------------
-See my [Github Page](https://github.com/Eric-Guo) for detail
+See [Github Page](https://github.com/Eric-Guo) for detail
+
+Presentation
+------------
+See [slideshare](http://www.slideshare.net/ericguo/presentations)
 
 Working Experience
 ------------------
@@ -77,11 +85,12 @@ Working Experience
 
 ##### Work as a Business Systems Analyst, working scope including:
 
-* MES system customize/enhanced/tuning and daily support (also training support engineer)
+* Launch new Malaysia Penang new SanDisk factory including new SSD mfg line (in whole 2014).
+* MES system customize/enhanced/tuning (also training support engineer)
 * MES Integration with SAP
 * Each manufacturing step recipe program logic implement and maintain
 * Travel Card in Crystal Report and new rewrite it in Rails 4
-* Design from scratch for some SDSS non-critical application in Ruby & Rails like Spare Part and Paper-Less forms
+* Design from scratch for new application in Ruby & Rails like Spare Part and Paper-Less forms, the paper less forms now fully replace all paper in Shanghai factory, including 300+ different kind of forms.
 
 #### 2007/06~2009/06 @ Technology Resource Group Ltd.
 
