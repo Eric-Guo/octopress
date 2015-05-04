@@ -10,7 +10,7 @@ categories: [Rails, SQLServer]
 Ubuntu 12.04 LTS already have the [freetds](https://launchpad.net/ubuntu/precise/+source/freetds) package, so just running below command will install [SQL Server support for Rails](https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/wiki/Using-TinyTDS).
 
 ```bash install tiny_tds
-apt-get install freetds-dev
+apt-get install freetds-dev tdsodbc
 gem install tiny_tds
 gem install activerecord-sqlserver-adapter
 ```
@@ -19,7 +19,9 @@ gem install activerecord-sqlserver-adapter
 #/etc/odbcinst.ini
 [FreeTDS]
 Description = ODBC for Microsoft SQL
+#choose one of line based on your version
 Driver      = /usr/lib/i386-linux-gnu/odbc/libtdsodbc.so
+Driver      = /usr/lib/x86_64-linux-gnu/odbc/libtdsodbc.so
 UsageCount  = 1
 Threading   = 2
 ```
