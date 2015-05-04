@@ -20,4 +20,6 @@ When the hkp port blocked, so rvm suggested `gpg --keyserver hkp://keys.gnupg.ne
 
 and copy and paste the step 1 server public key content and press `Ctrl+D`
 
-done!
+Another option you can try is using port 80, but it's can not always work.
+
+`apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 561F9B9CAC40B2F7`
