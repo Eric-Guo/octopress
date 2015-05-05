@@ -7,6 +7,8 @@ external-url:
 categories: [R]
 ---
 
+Confirm works at Ubuntu 14.04 / 12.04.
+
 * [knitr](http://cran.r-project.org/web/packages/knitr/) - A general-purpose package for dynamic report generation in R
 * [SixSigma](http://cran.r-project.org/web/packages/SixSigma/) - Six Sigma Tools for Quality and Process Improvement
 * [sqldf](http://cran.r-project.org/web/packages/sqldf/) - Perform SQL Selects on R Data Frames
@@ -15,6 +17,12 @@ categories: [R]
 * [doBy](http://cran.r-project.org/web/packages/doBy/) -  Groupwise summary statistics, general linear contrasts, population means (least-squares-means), and other utilities
 * [xlsx](http://cran.r-project.org/web/packages/xlsx/) - Read, write, format Excel 2007 and Excel 97/2000/XP/2003 files
 * [shiny](http://cran.r-project.org/web/packages/shiny/) - Web Application Framework for R
+* [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html) - General network (HTTP/FTP/...) client interface for R
+
+```bash To install rgdal package
+apt-get install libcurl-dev
+```
+
 * [devtools](http://cran.r-project.org/web/packages/devtools/) - Tools to make developing R code easier
 * [gplots](http://cran.r-project.org/web/packages/gplots/) - Various R programming tools for plotting data
 * [ggmap](http://cran.r-project.org/web/packages/ggmap/) - A package for spatial visualization with Google Maps and OpenStreetMap
@@ -24,7 +32,7 @@ categories: [R]
 
 ```bash To install rgdal package
 apt-get install libgdal1-dev
-apt-get install proj
+apt-get install libproj-dev # or proj if not found
 ```
 
 * [ROracle](http://cran.r-project.org/web/packages/ROracle/) - Oracle database interface (DBI) driver for R.
