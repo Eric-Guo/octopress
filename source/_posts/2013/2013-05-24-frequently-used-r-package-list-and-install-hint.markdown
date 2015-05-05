@@ -10,6 +10,7 @@ categories: [R]
 Confirm works at Ubuntu 14.04 / 12.04.
 
 * [knitr](http://cran.r-project.org/web/packages/knitr/) - A general-purpose package for dynamic report generation in R
+* [rmarkdown](http://cran.r-project.org/web/packages/rmarkdown/) - Dynamic Documents for R
 * [SixSigma](http://cran.r-project.org/web/packages/SixSigma/) - Six Sigma Tools for Quality and Process Improvement
 * [sqldf](http://cran.r-project.org/web/packages/sqldf/) - Perform SQL Selects on R Data Frames
 * [tseries](http://cran.r-project.org/web/packages/tseries/) - Time series analysis and computational finance

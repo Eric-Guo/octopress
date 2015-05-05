@@ -16,7 +16,7 @@ vi shiny/R/server.R
 # search 'Listening on http://' and replace 'startServer(host, port' to 'startServer("0.0.0.0", port'
 # search 'Test port to see if we can use it' and replace 'try(startServer(host, port' to 'try(startServer("0.0.0.0", port'
 # search 'QtWebKit' and replace 'paste("http://", browseHost,' to 'paste("http://", "your.rstudio.host.name",'
-tar cvf shiny_0.11.1-server.tar.gz shiny
+tar cvfz shiny_0.11.1-server.tar.gz shiny
 R CMD INSTALL shiny_0.11.1-server.tar.gz (may need install htmltools before this line)
 service rstudio-server restart # if you previous install shiny from CRAN
 ```
