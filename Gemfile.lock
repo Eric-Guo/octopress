@@ -20,8 +20,8 @@ GEM
       sass (>= 3.2, < 3.5)
     directory_watcher (1.5.1)
     fast-stemmer (1.0.2)
-    ffi (1.9.8)
-    ffi (1.9.8-x86-mingw32)
+    ffi (1.9.10)
+    ffi (1.9.10-x86-mingw32)
     haml (4.0.6)
       tilt
     jekyll (0.12.1)
@@ -35,12 +35,12 @@ GEM
     kramdown (0.14.2)
     liquid (2.6.2)
     maruku (0.7.2)
-    multi_json (1.11.0)
+    multi_json (1.11.1)
     posix-spawn (0.3.11)
     pygments.rb (0.3.7)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
-    rack (1.5.3)
+    rack (1.5.5)
     rack-protection (1.5.3)
       rack
     rake (10.4.2)
@@ -50,9 +50,9 @@ GEM
     rb-fsevent (0.9.5)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
-    redcarpet (3.2.3)
+    redcarpet (3.3.2)
     rubypants (0.2.0)
-    sass (3.4.14)
+    sass (3.4.15)
     sinatra (1.4.6)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -84,4 +84,4 @@ DEPENDENCIES
   tzinfo (~> 0.3.41)
 
 BUNDLED WITH
-   1.10.3
+   1.10.5
