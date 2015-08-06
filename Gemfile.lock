@@ -33,9 +33,9 @@ GEM
       pygments.rb (~> 0.3.2)
     jsmin (1.0.1)
     kramdown (0.14.2)
-    liquid (2.6.2)
+    liquid (2.6.3)
     maruku (0.7.2)
-    multi_json (1.11.1)
+    multi_json (1.11.2)
     posix-spawn (0.3.11)
     pygments.rb (0.3.7)
       posix-spawn (~> 0.3.6)
@@ -52,7 +52,7 @@ GEM
       ffi (>= 0.5.0)
     redcarpet (3.3.2)
     rubypants (0.2.0)
-    sass (3.4.15)
+    sass (3.4.16)
     sinatra (1.4.6)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -84,4 +84,4 @@ DEPENDENCIES
   tzinfo (~> 0.3.41)
 
 BUNDLED WITH
-   1.10.5
+   1.10.6
