@@ -34,8 +34,8 @@ ROracle is much faster compare with RODBC or RJDBC in [performance](https://blog
 ```bash manual install the ROracle
 wget http://cran.r-project.org/src/contrib/DBI_0.3.1.tar.gz
 R CMD INSTALL DBI_0.3.1.tar.gz
-wget http://cran.r-project.org/src/contrib/ROracle_1.1-12.tar.gz
-R CMD INSTALL --configure-args='--with-oci-inc=/opt/oracle/instantclient_11_2/sdk/include --with-oci-lib=/opt/oracle/instantclient_11_2' ROracle_1.1-12.tar.gz
+wget http://cran.r-project.org/src/contrib/ROracle_1.2-1.tar.gz
+R CMD INSTALL --configure-args='--with-oci-inc=/opt/oracle/instantclient_11_2/sdk/include --with-oci-lib=/opt/oracle/instantclient_11_2' ROracle_1.2-1.tar.gz
 ```
 
 ##### Install [RStudio Server](http://www.rstudio.org/download/server)
