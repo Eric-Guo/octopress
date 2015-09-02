@@ -16,8 +16,13 @@ Confirm works at Ubuntu 14.04 / 12.04.
 * [tseries](http://cran.r-project.org/web/packages/tseries/) - Time series analysis and computational finance
 * [quantmod](http://cran.r-project.org/web/packages/quantmod/) - Quantitative Financial Modeling Framework
 * [doBy](http://cran.r-project.org/web/packages/doBy/) -  Groupwise summary statistics, general linear contrasts, population means (least-squares-means), and other utilities
+* [rJava](https://cran.r-project.org/web/packages/rJava/) - Low-Level R to Java Interface to support RWeka and xlsx
+
+```bash run before install rJava
+R CMD javareconf
+```
+
 * [xlsx](http://cran.r-project.org/web/packages/xlsx/) - Read, write, format Excel 2007 and Excel 97/2000/XP/2003 files
-* [shiny](http://cran.r-project.org/web/packages/shiny/) - Web Application Framework for R
 * [RCurl](http://cran.r-project.org/web/packages/RCurl/index.html) - General network (HTTP/FTP/...) client interface for R
 
 ```bash To install rgdal package
@@ -33,7 +38,7 @@ apt-get install libcurl-dev
 
 ```bash To install rgdal package
 apt-get install libgdal1-dev
-apt-get install libproj-dev # or proj if not found
+apt-get install libproj-dev # or libproj if not found
 ```
 
 * [ROracle](http://cran.r-project.org/web/packages/ROracle/) - Oracle database interface (DBI) driver for R.
@@ -49,7 +54,6 @@ apt-get install libproj-dev # or proj if not found
 * [caret](https://cran.r-project.org/web/packages/caret/) - Classification and Regression Training, Misc functions for training and plotting classification and regression models.
 * [rpart](https://cran.r-project.org/web/packages/rpart/) - Recursive Partitioning and Regression Trees
 * [party](https://cran.r-project.org/web/packages/party/) - A Laboratory for Recursive Partytioning
-* [rJava](https://cran.r-project.org/web/packages/rJava/) - Low-Level R to Java Interface to support RWeka
 * [RWeka](https://cran.r-project.org/web/packages/RWeka/) - An R interface to Weka (Version 3.7.12). Weka is a collection of machine learning algorithms for data mining tasks written in Java, containing tools for data pre-processing, classification, regression, clustering, association rules, and visualization.
 * [ipred](https://cran.r-project.org/web/packages/ipred/) - Improved predictive models by indirect classification and bagging for classification, regression and survival problems as well as resampling based estimators of prediction error.
 * [randomForest](https://cran.r-project.org/web/packages/randomForest/) - Breiman and Cutler's random forests for classification and regression
