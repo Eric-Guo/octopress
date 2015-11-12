@@ -12,7 +12,7 @@ group :development do
   gem 'rb-fsevent', '~> 0.9.3'
   gem 'stringex', '~> 2.0'
   gem 'liquid', '~> 2.5'
-  gem 'tzinfo', '~> 0.3.41'
+  gem 'tzinfo', '~> 0.3.45'
   gem 'rake-minify'
 end
 
