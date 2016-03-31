@@ -10,14 +10,14 @@ R package [Shiny](http://cran.r-project.org/web/packages/shiny/index.html) origi
 
 ```bash install shiny package for R Studio
 cd ~
-wget http://cran.r-project.org/src/contrib/shiny_0.13.0.tar.gz
-tar xvfz shiny_0.13.0.tar.gz
+wget http://cran.r-project.org/src/contrib/shiny_0.13.2.tar.gz
+tar xvfz shiny_0.13.2.tar.gz
 vi shiny/R/server.R
 # search 'Listening on http://' and replace 'startServer(host, port' to 'startServer("0.0.0.0", port'
 # search 'Test port to see if we can use it' and replace 'try(startServer(host, port' to 'try(startServer("0.0.0.0", port'
 # search 'QtWebKit' and replace 'paste("http://", browseHost,' to 'paste("http://", "your.rstudio.host.name",'
-tar cvfz shiny_0.13.0-server.tar.gz shiny
-R CMD INSTALL shiny_0.13.0-server.tar.gz # (may need install htmltools before this line)
+tar cvfz shiny_0.13.2-server.tar.gz shiny
+R CMD INSTALL shiny_0.13.2-server.tar.gz # (may need install htmltools before this line)
 service rstudio-server restart # if you previous install shiny from CRAN
 ```
 
