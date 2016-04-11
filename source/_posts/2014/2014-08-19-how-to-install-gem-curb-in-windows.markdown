@@ -16,7 +16,7 @@ Notice most up-to-date version `curl-7.47.1-win32-mingw` not working, so still u
 Extract to C:\ and install the curb via below command.
 
 ```bat
-gem install curb --platform=ruby -- --with-curl-lib=C:/curl-7.47.1-win32-mingw/bin --with-curl-include=C:/curl-7.47.1-win32-mingw/include
+gem install curb --platform=ruby -- --with-curl-lib=C:/curl-7.40.0-devel-mingw32/bin --with-curl-include=C:/curl-7.40.0-devel-mingw32/include
 ```
 
 Some relative issues in github about curb, [#37](https://github.com/taf2/curb/issues/37), [#183](https://github.com/taf2/curb/issues/183)
