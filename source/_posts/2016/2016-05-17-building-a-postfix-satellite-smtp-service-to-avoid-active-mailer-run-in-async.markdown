@@ -29,6 +29,7 @@ smtp_sasl_password_maps = hash:/etc/postfix/sasl_passwd
 smtp_sasl_security_options = noanonymous
 smtp_tls_CApath = /etc/ssl/certs
 smtp_use_tls = yes
+smtp_generic_maps = hash:/etc/postfix/generic
 mynetworks = 127.0.0.0/8
 mydestination =
 ```
@@ -39,22 +40,28 @@ mydestination =
 [smtp.mxhichina.com]:587    no-reply@domain.com:PASSWORD
 ```
 
+## Create /etc/postfix/generic 
+
+```
+root@staging.domain.com   no-reply@domain.com
+```
+
 ## Create a database file
 
 ```bash
-postmap /etc/postfix/sasl_passwd
+postmap /etc/postfix/sasl_passwd /etc/postfix/generic
 ```
 
 ## Prevent non-root access:
 
 ```bash
-chmod 0600 /etc/postfix/sasl_passwd /etc/postfix/sasl_passwd.db
+chmod 0600 /etc/postfix/sasl_passwd /etc/postfix/sasl_passwd.db /etc/postfix/generic /etc/postfix/generic.db
 ```
 
 ## Restart Postfix service
 
 ```bash
-/etc/init.d/postfix restart
+/etc/init.d/postfix restart # or service postfix restart
 ```
 
 # Debug
@@ -72,3 +79,4 @@ And open another console to testing via:
 echo "body of your email" | mail -s 'mail subject from console' -r 'no-reply@domain.com' guochunzhong@domain.com
 ```
 
+You may also need `postconf -n` to review postfix configuration.
