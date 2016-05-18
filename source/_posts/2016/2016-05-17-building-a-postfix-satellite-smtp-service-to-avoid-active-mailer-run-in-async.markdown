@@ -23,6 +23,8 @@ Similar to [gmail](http://mhawthorne.net/posts/postfix-configuring-gmail-as-rela
 ## /etc/postfix/main.cf change
 
 ```text
+# comment out below
+#inet_interfaces = localhost
 relayhost = [smtp.mxhichina.com]:587
 smtp_sasl_auth_enable = yes
 smtp_sasl_password_maps = hash:/etc/postfix/sasl_passwd
