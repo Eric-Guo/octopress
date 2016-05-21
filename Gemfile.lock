@@ -33,7 +33,7 @@ GEM
     kramdown (0.14.2)
     liquid (2.6.3)
     maruku (0.7.2)
-    multi_json (1.12.0)
+    multi_json (1.12.1)
     posix-spawn (0.3.11)
     pygments.rb (0.3.7)
       posix-spawn (~> 0.3.6)
