@@ -91,7 +91,7 @@ check process <%= sidekiq_service_name(idx) %> with pidfile "<%= pid_file %>"
 cap production deploy
 ```
 
-After that checking if `/etc/monit.d` having sidekiq conf file.
+After that checking if `/etc/monit.d` having sidekiq conf file. or running `cap sidekiq:monit:config` to generate config.
 
 ## Running monit at production
 
