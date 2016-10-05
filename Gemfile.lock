@@ -41,7 +41,7 @@ GEM
     rack (1.5.5)
     rack-protection (1.5.3)
       rack
-    rake (11.2.2)
+    rake (11.3.0)
     rake-minify (0.4.0)
       jsmin (~> 1.0.1)
       rake (>= 0.8.7)
@@ -80,4 +80,4 @@ DEPENDENCIES
   tzinfo (~> 0.3.45)
 
 BUNDLED WITH
-   1.12.5
+   1.13.2
