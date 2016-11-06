@@ -14,7 +14,7 @@ This wiki based on the Ubuntu 14.04.5 LTS Server.
 ```bash
 apt-get update && apt-get upgrade
 apt-get dist-upgrade
-apt-get install software-properties-common htop
+apt-get install software-properties-common htop curl
 ```
 
 ## [memcached](https://launchpad.net/ubuntu/+source/memcached)
@@ -81,8 +81,12 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 
 ```bash
 rvm requirements
-rvm install ruby-2.3.1
+echo "ruby_url=https://cache.ruby-china.org/pub/ruby" > ~/.rvm/user/db # if need mirror.
+rvm install 2.3.1 --disable-binary
+rvm use 2.3.1 --default
 echo "gem: --no-document" >> /etc/gemrc
+echo "gem: --no-document" >> ~/.gemrc
+gem sources --add https://gems.ruby-china.org/ --remove https://rubygems.org/ # if need mirror
 gem install bundler
 ```
 
