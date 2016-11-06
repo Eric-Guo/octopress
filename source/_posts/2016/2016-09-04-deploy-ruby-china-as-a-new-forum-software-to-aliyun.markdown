@@ -14,7 +14,7 @@ This wiki based on the Ubuntu 14.04.5 LTS Server.
 ```bash
 apt-get update && apt-get upgrade
 apt-get dist-upgrade
-apt-get install software-properties-common htop curl
+apt-get install software-properties-common htop curl git
 ```
 
 ## [memcached](https://launchpad.net/ubuntu/+source/memcached)
@@ -97,11 +97,38 @@ add-apt-repository ppa:nginx/stable
 apt-get update && apt-get install nginx
 ```
 
-# Building
+# Create deploy user
+
+```bash
+sudo adduser \
+  --system \
+  --shell /bin/bash \
+  --gecos 'deploy user' \
+  --group \
+  --disabled-password \
+  --home /data/www deploy
+mkdir /data/www/.ssh
+cp ~/.ssh/authorized_keys /data/www/.ssh/
+chown deploy:deploy -R .ssh/
+```
+
+# Prepare setting files while doing cap deploy
+
+```bash
+cap production deploy
+cp config/secrets.yml.default  config/secrets.yml
+cp config/database.yml.default config/database.yml
+cp config/config.yml.default   config/config.yml
+cp config/redis.yml.default    config/redis.yml
+cp config/puma.example.rb      config/puma-web.rb
+cp config/elasticsearch.yml.default config/elasticsearch.yml 
+```
+
+# Change as necessory
 
 ```bash
 vi /data/www/ruby-china/shared/config/database.yml
-vi /data/www/ruby-china/shared/config/redis.yml
+vi /data/www/ruby-china/shared/config/config.yml
 vi /data/www/ruby-china/shared/config/secrets.yml
 ```
 
@@ -115,7 +142,7 @@ psql
 CREATE ROLE deploy;
 ALTER ROLE deploy LOGIN;
 CREATE DATABASE ftghub_prod WITH ENCODING='UTF8' OWNER='deploy';
-vi /etc/postgresql/9.5/main/pg_hba.conf
+vi /etc/postgresql/9.6/main/pg_hba.conf
 ```
 
 ```
