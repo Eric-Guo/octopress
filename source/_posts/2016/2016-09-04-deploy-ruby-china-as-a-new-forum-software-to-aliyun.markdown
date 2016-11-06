@@ -211,3 +211,19 @@ server {
     }
 }
 ```
+
+# Running DB seed
+
+```bash
+bundle exec rake db:seed RAILS_ENV=production
+```
+
+# Reindex ElasticSearch
+
+Must ensure those model at least having one record each.
+
+```bash
+rake environment elasticsearch:import:model CLASS=Page FORCE=y
+rake environment elasticsearch:import:model CLASS=Topic FORCE=y
+rake environment elasticsearch:import:model CLASS=User FORCE=y
+```
