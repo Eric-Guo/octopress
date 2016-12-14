@@ -71,6 +71,7 @@ DEPENDENCIES
   liquid (~> 2.5)
   pygments.rb (~> 0.3.4)
   rack (~> 1.5.2)
+  rake (~> 11.3)
   rake-minify
   rb-fsevent (~> 0.9.3)
   redcarpet (~> 3.0)
