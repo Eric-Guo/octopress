@@ -12,7 +12,7 @@ Some situation is better avoid Sidekiq like reporting the exception mail, so it'
 # Install Postfix
 
 ```bash
-yum install -y postfix cyrus-sasl-plain
+yum install -y postfix cyrus-sasl-plain # cyrus-sasl-plain is no need for Ubuntu
 yum erase -y sendmail* # In case Sendmail is installed
 ```
 
@@ -81,4 +81,6 @@ And open another console to testing via:
 echo "body of your email" | mail -s 'mail subject from console' -r 'no-reply@domain.com' guochunzhong@domain.com
 ```
 
-You may also need `postconf -n` to review postfix configuration.
+You may also need `postconf -n` to review postfix configuration or `postconf -d` to review all setting.
+
+YOu can also monitor the postfix activity via `tail -f /var/log/syslog`.
