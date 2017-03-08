@@ -223,7 +223,7 @@ bundle exec rake db:seed RAILS_ENV=production
 Must ensure those model at least having one record each.
 
 ```bash
-rake environment elasticsearch:import:model CLASS=Page FORCE=y
-rake environment elasticsearch:import:model CLASS=Topic FORCE=y
-rake environment elasticsearch:import:model CLASS=User FORCE=y
+rake environment elasticsearch:import:model CLASS=Page FORCE=y RAILS_ENV=production
+rake environment elasticsearch:import:model CLASS=Topic FORCE=y RAILS_ENV=production
+rake environment elasticsearch:import:model CLASS=User FORCE=y RAILS_ENV=production
 ```
