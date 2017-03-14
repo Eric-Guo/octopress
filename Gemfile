@@ -1,7 +1,7 @@
 source "https://gems.ruby-china.org"
 
 group :development do
-  gem 'rack', '~> 1.5.2'
+  gem 'rack', '~> 1.6.5'
   gem 'jekyll', '~> 0.12.0'
   gem 'redcarpet', '~> 3.0'
   gem 'pygments.rb', '~> 0.3.4'
