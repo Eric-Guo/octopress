@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Web stack on Rails and Webpack after .NET"
+title: "Eric-Guo - full stack developer on Rails and Webpack after .NET"
 date: 2017-03-24 22:17
 comments: false
 sharing: false
@@ -35,7 +35,7 @@ Skill Table
 </tr>
 <tr>
 <td>Oracle</td>
-<td>Daily using at SanDisk, Hoping can use it again. (Just show I'm rich and doesn't care cost at all)</td>
+<td>Daily using at SanDisk, hoping can use it again. (Just to show I'm rich and don't care cost at all...)</td>
 </tr>
 <tr>
 <td>Percona-Server</td>
