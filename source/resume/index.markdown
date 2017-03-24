@@ -120,7 +120,7 @@ Tongji University Electronic Information Engineering Bachelor, GPA 4+
 </tr>
 <tr>
 <td>email</td>
-<td><a href="mailto:ecguo@outlook.com?subject=Just read your resume at blog.cloud-mes.com">ecguo@outlook.com</a></td>
+<td><a href="mailto:eric@cloud-mes.com?subject=Just read your resume at blog.cloud-mes.com">eric@cloud-mes.com</a></td>
 </tr>
 <tr>
 <td>Mobile</td>
