@@ -64,7 +64,7 @@ Skill Table
 
 Open Source Project
 -------------------
-See [Github Page](https://github.com/Eric-Guo) for detail, Also having do some during working at [Bayetech](https://github.com/bayetech).
+See [my Github](https://github.com/Eric-Guo) for personal project and [Bayetech](https://github.com/bayetech) for working relative.
 
 Presentation
 ------------
