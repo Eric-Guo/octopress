@@ -57,7 +57,7 @@ GEM
       tilt (>= 1.3, < 3)
     stringex (2.7.1)
     tilt (2.0.7)
-    tzinfo (0.3.52)
+    tzinfo (0.3.53)
     yajl-ruby (1.3.0)
 
 PLATFORMS
