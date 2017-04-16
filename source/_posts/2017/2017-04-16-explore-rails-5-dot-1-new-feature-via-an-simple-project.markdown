@@ -7,11 +7,13 @@ external-url:
 categories: [Rails, Yarn, IntegrationTest]
 ---
 
-Rails 5.1即将发布，虽然同Rails 5相比，这只是一个0.1的小版本，但我看来，Rails 5.1的新的功能却非常重要：在JavaScript世界建构和模块管理工具突飞猛进了3～4年后（grunt, gulp, browserify, npm, webpack, yarn），一向喜欢稳定的Rubyist们（喜欢折腾的都跑去javascript, go和Elixir了。。），在大神[DHH](https://github.com/dhh)和女神[Liceth](https://github.com/Liceth)以及其他众神的帮助下，迎来了和node.js国的最终和解，[Yarn](https://github.com/rails/rails/pull/26836)和[Webpack](https://github.com/rails/rails/pull/27288)已经成为了[主厨推荐](https://ruby-china.org/wiki/the-rails-doctrine#主厨精选)。
+Rails 5.1即将发布，虽然同Rails 5相比，这只是一个0.1的小版本，但我看来，Rails 5.1的新的功能却非常重要：在JavaScript世界建构和模块管理工具突飞猛进了3～4年后（grunt, gulp, browserify, npm, webpack, yarn），一向喜欢稳定的Rubyist们（喜欢折腾的都跑去javascript, go和Elixir了。。），在大神[DHH](https://github.com/dhh)和女神[Liceth](https://github.com/Liceth)以及其他众神的帮助下，迎来了和node.js国的最终和解：[Yarn](https://github.com/rails/rails/pull/26836)和[Webpack](https://github.com/rails/rails/pull/27288)已经正式成为了[主厨推荐](https://ruby-china.org/wiki/the-rails-doctrine#主厨精选)。
 
-本文和其他[whatsnew](http://blog.michelada.io/whats-new-in-rails-51)稍有不同的地方在于，我试图通过一个新的项目探索Rails 5.1的特点。
+本文和其他介绍[Rails 5.1 Whatsnew](http://blog.michelada.io/whats-new-in-rails-51)稍有不同的地方在于，我试图通过一个新的项目探索Rails 5.1的特点。
 
 [product hunt](https://github.com/Eric-Guo/product_hunt)是一个功能简单的Rails应用，仅仅实现了产品的维护，但在功能方面，探索了yarn下对新javascript框架的使用，还有集成测试。
+
+具体来说，使用了比较小众的[milligram CSS框架](https://milligram.github.io)，输入自动提示使用了零依赖的[awesomplete](http://leaverou.github.io/awesomplete/)，使用基于Chrome的集成测试。
 
 ## Yarn
 
@@ -78,7 +80,11 @@ window.addEventListener('input', function (e) {
 
 ## System Test
 
-Rails 5.1对集成测试也有了官方方案，现在出厂即可跑集成测试。集成测试在测试自动提示这样的特性的时候还是很方便的：
+Rails 5.1对集成测试也有了官方方案，现在出厂即可跑集成测试。集成测试在测试自动提示这样的特性的时候还是很方便的，官方出厂的默认配置基于selenium-webdriver驱动的Chrome，使用之前需要安装驱动：
+
+```bash
+brew install chromedriver
+```
 
 ```ruby
 require 'application_system_test_case'
@@ -106,4 +112,8 @@ end
 ## 其他特性。
 
 其他的特性：Encrypted secrets、Parameterized mailers、Direct & resolved routes等，参见[Rails 5.1 Release notes](https://github.com/rails/rails/blob/master/guides/source/5_1_release_notes.md#encrypted-secrets)，演示项目中没有包括这些功能，这里就略过了。
+
+## 本文不足
+
+测试方案还想使用[phantomjs和poltergeist](https://github.com/Eric-Guo/product_hunt/commit/8f5df2358e7ee9c9a65d0412e0299e4f14659564)，但是始终没有成功，有兴趣的同学可以尝试并提Pull Request。
 
