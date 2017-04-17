@@ -62,7 +62,7 @@ Webpack是可选的，如果是[majestic monolith](https://m.signalvnoise.com/th
 
 ## jQuery的依赖去除
 
-由于Javascript一众MVC框架的崛起，Rails 5.1在前端方案上给予了开发者更多的选择权，我试了在没有jquery的情况下开发使用[vanilla-js](http://vanilla-js.com)开发，虽然时不时还需要查一下[对应jQuery的用法](http://youmightnotneedjquery.com)，但这样做还是值得的，微信小程序的卖点就是即用即走，但如果能将网页做到轻量，何尝不是即用即走？况且网页发布还不用走审核流程。
+由于Javascript一众MVC框架的崛起，Rails 5.1在前端方案上给予了开发者更多的选择权，我试了在没有jquery的情况下，使用0 payloading的[vanilla-js](http://vanilla-js.com)开发，虽然时不时还需要查一下[对应jQuery的用法](http://youmightnotneedjquery.com)，但这样做还是值得的，微信小程序的卖点就是即用即走，但如果能将网页做到轻量，何尝不是即用即走？况且网页发布还不用走审核流程。
 
 在Rails下使用vanilla js其实也不是什么都没得用，[rails-ujs](https://github.com/rails/rails/tree/master/actionview/app/assets/javascripts)始终是存在的，所以还是可以直接使用Rails.ajax方法来发起远程调用：
 
