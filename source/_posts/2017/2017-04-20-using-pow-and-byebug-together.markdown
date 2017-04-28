@@ -7,7 +7,7 @@ external-url:
 categories: [Rails]
 ---
 
-Some rails application, especially in SaSS category will behave differently based on the different subdomain. in that case, [pow](http://pow.cx) is necessary, as it makes simulate subdomain much easier compare with edit based on `/etc/hosts`.
+Some rails application, especially in SaSS category will behave differently based on the different subdomain. In that case, [pow](http://pow.cx) is necessary, as it makes simulate subdomain much easier compare with edit based on `/etc/hosts`.
 
 Setup the pow relative easy:
 
