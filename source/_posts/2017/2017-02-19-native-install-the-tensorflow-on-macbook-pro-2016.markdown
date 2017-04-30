@@ -48,5 +48,5 @@ print(sess.run(hello))
 源码安装就很烦了，下载源吗就非常费网络，还必须FQ，编译也需要至少25分钟时间，不过亲爱的读者，我已经帮你们做好了，现在可以使用我的安装包直接升级到原生CPU优化版：
 
 ```bash
-pip install --upgrade http://baye-deploy.oss-cn-shanghai.aliyuncs.com/tensorflow-1.0.0-cp27-cp27m-macosx_10_12_x86_64.whl
+pip install --upgrade http://baye-deploy.oss-cn-shanghai.aliyuncs.com/tensorflow-1.1.0-cp27-cp27m-macosx_10_12_x86_64.whl
 ```
