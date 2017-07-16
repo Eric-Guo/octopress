@@ -9,7 +9,7 @@ group :development do
   gem 'haml', '~> 4.0.6'
   gem 'compass', '~> 1.0.1'
   gem 'rubypants', '~> 0.2'
-  gem 'rb-fsevent', '~> 0.9.3'
+  gem 'rb-fsevent'
   gem 'stringex', '~> 2.0'
   gem 'liquid', '~> 2.5'
   gem 'tzinfo', '~> 0.3.45'
