@@ -107,8 +107,8 @@ sudo adduser \
   --group \
   --disabled-password \
   --home /data/www deploy
-mkdir /data/www/.ssh
-cp ~/.ssh/authorized_keys /data/www/.ssh/
+mkdir /data/www/deploy/.ssh
+cp ~/.ssh/authorized_keys /data/www/deploy/.ssh/
 chown deploy:deploy -R .ssh/
 ```
 
