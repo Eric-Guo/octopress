@@ -108,8 +108,10 @@ sudo adduser \
   --disabled-password \
   --home /data/www deploy
 mkdir /data/www/deploy/.ssh
+chmod 711 /data/www/deploy/
 cp ~/.ssh/authorized_keys /data/www/deploy/.ssh/
 chown deploy:deploy -R .ssh/
+chmod 700 /data/www/deploy/.ssh/
 ```
 
 # Prepare setting files while doing cap deploy
