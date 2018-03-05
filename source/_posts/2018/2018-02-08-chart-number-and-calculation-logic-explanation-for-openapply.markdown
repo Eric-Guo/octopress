@@ -29,6 +29,8 @@ Applicants will list the students' number per day, the students is the one who w
 
 Applicants date range always starts at Month Day 1.
 
+The applicants number is based on student status history effective on date.
+
 ### Enrolment
 
 Enrolment chart will display the count number of enrolled student per that month. The enrolled day is students status histories enrolled record effective on date.
