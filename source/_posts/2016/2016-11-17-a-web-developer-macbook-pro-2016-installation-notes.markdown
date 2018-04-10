@@ -55,7 +55,9 @@ bundle install
 To add Shadowsocks setting for proxychains.
 
 ```bash
-vi /usr/local/Cellar/proxychains-ng/4.11/etc/proxychains.conf
+# add below at end
+# socks5  127.0.0.1 1080
+vi /usr/local/etc/proxychains.conf 
 ```
 
 It will finally take 76Gb after installing all my needs, about 33% used, so I believe in buying a 256Gb SSD edition of rMBP should be enough for my next four years usage.
