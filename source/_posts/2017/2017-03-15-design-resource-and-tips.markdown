@@ -19,6 +19,7 @@ A list of design resource from [lewagon](http://alumni.lewagon.org)
 - [Pexels](https://www.pexels.com/): selective
 - [Unsplash.it](http://unsplash.it/), [Bunny Holder](https://www.bunnyholder.com/): placeholders
 - [Medium - stock photos that don't suck](https://medium.com/@dustin/stock-photos-that-dont-suck-62ae4bcbe01b)
+- [Stock Photos by Canva](https://www.canva.com/photos/)
 
 ## Colors
 
