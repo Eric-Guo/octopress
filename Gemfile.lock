@@ -61,7 +61,7 @@ GEM
     stringex (2.8.4)
     tilt (2.0.8)
     tzinfo (0.3.54)
-    yajl-ruby (1.4.0)
+    yajl-ruby (1.4.1)
 
 PLATFORMS
   ruby
@@ -84,4 +84,4 @@ DEPENDENCIES
   tzinfo (~> 0.3.45)
 
 BUNDLED WITH
-   1.16.2
+   1.16.3
