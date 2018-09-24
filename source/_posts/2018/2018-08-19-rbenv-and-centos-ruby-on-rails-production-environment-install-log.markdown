@@ -40,8 +40,8 @@ cd ~/.rbenv && src/configure && make -C src
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
 ~/.rbenv/bin/rbenv init
 # As an rbenv plugin
-$ mkdir -p "$(rbenv root)"/plugins
-$ git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
+mkdir -p "$(rbenv root)"/plugins
+git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
 ```
 
 # Install Ruby 2.5.1
