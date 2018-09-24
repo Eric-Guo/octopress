@@ -29,6 +29,8 @@ visudo # add deployer ALL=(ALL) NOPASSWD: ALL at end
 
 Also disable root login and password via `PermitRootLogin` in `/etc/ssh/sshd_config`
 
+Before exis, make sure you can login via `ssh deployer@ip_address`, other wise, [check file permission](https://unix.stackexchange.com/a/36687/303385).
+
 # Install rbenv and ruby-build
 
 ```bash
