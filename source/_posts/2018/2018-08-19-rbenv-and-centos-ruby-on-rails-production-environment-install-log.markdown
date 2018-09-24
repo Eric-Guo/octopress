@@ -91,3 +91,11 @@ psql -d harman_vendor_production
 sudo yum install nginx
 ```
 
+# Fix permission for CentOS
+
+```bash
+sudo mkdir /var/www
+cd /var/www
+sudo mkdir jbl_product
+sudo chown deployer:deployer jbl_product/
+```
