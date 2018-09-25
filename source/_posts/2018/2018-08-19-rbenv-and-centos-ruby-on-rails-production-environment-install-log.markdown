@@ -105,3 +105,5 @@ cd /var/www
 sudo mkdir jbl_product
 sudo chown deployer:deployer jbl_product/
 ```
+
+or further read [nginx permission denied](https://stackoverflow.com/questions/23948527/13-permission-denied-while-connecting-to-upstreamnginx)
