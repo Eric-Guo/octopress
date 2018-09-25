@@ -15,7 +15,7 @@ categories:
 
 ```bash
 yum update
-yum install -y htop git zlib zlib-devel gcc-c++ patch readline readline-devel libyaml-devel libffi-devel openssl-devel make bzip2 autoconf automake libtool bison curl sqlite3-devel
+yum install -y htop git zlib zlib-devel gcc-c++ patch readline readline-devel libyaml-devel libffi-devel openssl-devel make bzip2 autoconf automake libtool bison curl sqlite-devel
 reboot
 ```
 
@@ -55,11 +55,13 @@ rbenv install 2.5.1
 rbenv global 2.5.1
 eval "$(rbenv init -)" >> ~/.bash_profile
 echo "gem: --no-document" > ~/.gemrc
+gem install bundler
 ```
 
 # Install Javascript Runtime
 
 ```bash
+curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -
 sudo yum install nodejs
 sudo curl -sL https://dl.yarnpkg.com/rpm/yarn.repo -o /etc/yum.repos.d/yarn.repo
 sudo yum install yarn
@@ -91,6 +93,7 @@ psql -d harman_vendor_production
 # Install nginx
 
 ```bash
+sudo yum install epel-release
 sudo yum install nginx
 ```
 
