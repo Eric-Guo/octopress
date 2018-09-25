@@ -15,7 +15,7 @@ categories:
 
 ```bash
 yum update
-yum install -y htop git zlib zlib-devel gcc-c++ patch readline readline-devel libyaml-devel libffi-devel openssl-devel make bzip2 autoconf automake libtool bison curl
+yum install -y htop git zlib zlib-devel gcc-c++ patch readline readline-devel libyaml-devel libffi-devel openssl-devel make bzip2 autoconf automake libtool bison curl sqlite3-devel
 reboot
 ```
 
@@ -25,6 +25,9 @@ reboot
 adduser deployer
 gpasswd -a deployer wheel
 visudo # add deployer ALL=(ALL) NOPASSWD: ALL at end
+sudo su - deployer
+mkdir .ssh
+chmod 700 .ssh
 ```
 
 Also disable root login and password via `PermitRootLogin` in `/etc/ssh/sshd_config`
