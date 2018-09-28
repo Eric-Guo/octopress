@@ -78,7 +78,7 @@ sudo systemctl start postgresql
 ```
 createuser deployer --pwprompt
 ALTER ROLE deployer LOGIN
-CREATE DATABASE harman_vendor_production WITH ENCODING='UTF8' OWNER='deployer'
+CREATE DATABASE harman_vendor_production WITH ENCODING='UTF8' OWNER=deployer;
 ```
 
 ```bash /var/lib/pgsql/data/pg_hba.conf
