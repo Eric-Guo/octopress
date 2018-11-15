@@ -3,7 +3,7 @@ layout: post
 title: "New EC2 box on Amazon Linux install log"
 date: 2017-05-29T15:55:22+08:00
 comments: true
-external-url: 
+external-url:
 categories: [AWS, Linux]
 ---
 
@@ -43,10 +43,12 @@ yum install -y nodejs
 ## Install Go
 
 ```bash
-wget https://storage.googleapis.com/golang/go1.8.3.linux-amd64.tar.gz
-tar -C /usr/local -xzf go1.8.3.linux-amd64.tar.gz
+wget https://storage.googleapis.com/golang/go1.11.2.linux-amd64.tar.gz
+tar -C /usr/local -xzf go1.11.2.linux-amd64.tar.gz
 echo "export PATH=$PATH:/usr/local/go/bin" > /etc/profile.d/go-lang.sh
 ```
+
+Notes, if you upgrade new version, need `rm -rf /user/local/go` first.
 
 ## Install shadowsocks-go
 
