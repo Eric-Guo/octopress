@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HOw to resolve Safari download filename not support Chinese"
+title: "How to resolve Safari download filename not support Chinese"
 date: 2018-11-20T13:58:28+08:00
 comments: true
 external-url:
