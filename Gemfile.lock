@@ -59,7 +59,7 @@ GEM
       rack-protection (~> 1.4)
       tilt (>= 1.3, < 3)
     stringex (2.8.5)
-    tilt (2.0.8)
+    tilt (2.0.9)
     tzinfo (0.3.55)
     yajl-ruby (1.4.1)
 
