@@ -73,12 +73,15 @@ sudo yum install yarn
 sudo yum install postgresql-server postgresql-contrib postgresql-devel
 sudo postgresql-setup initdb
 sudo systemctl start postgresql
+sudo chkconfig postgresql on
 ```
 
 ```
+sudo su - postgres
 createuser deployer --pwprompt
+psql
 ALTER ROLE deployer LOGIN
-CREATE DATABASE harman_vendor_production WITH ENCODING='UTF8' OWNER=deployer;
+CREATE DATABASE harman_vendor_production WITH ENCODING='UTF8' OWNER=deployer
 ```
 
 ```bash /var/lib/pgsql/data/pg_hba.conf
