@@ -92,3 +92,10 @@ SQLPro Studio
 微信开发者工具
 百度网盘
 ```
+
+Append below lines to `.bash_profile` to activate conda.
+
+```bash
+source /usr/local/anaconda3/etc/profile.d/conda.sh
+conda activate
+```
