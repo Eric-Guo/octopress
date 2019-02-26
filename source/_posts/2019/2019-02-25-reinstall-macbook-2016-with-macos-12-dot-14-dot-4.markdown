@@ -99,3 +99,9 @@ Append below lines to `.bash_profile` to activate conda.
 source /usr/local/anaconda3/etc/profile.d/conda.sh
 conda activate
 ```
+
+New brew relay on CommandLineTools, acturally there is no need and node need xcode existing, so run below to fix.
+
+```bash
+sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer/
+```
