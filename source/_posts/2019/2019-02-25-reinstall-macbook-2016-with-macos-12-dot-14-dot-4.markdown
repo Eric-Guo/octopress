@@ -105,3 +105,10 @@ New brew relay on CommandLineTools, acturally there is no need and node need xco
 ```bash
 sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer/
 ```
+
+Some gem need special handle
+
+```bash
+gem install libxml-ruby -v '3.1.0' -- --use-system-libraries=true --with-xml2-include="$(xcrun --show-sdk-path)"/usr/include/libxml2
+gem install nokogiri -v '1.10.1' -- --use-system-libraries=true --with-xml2-include="$(xcrun --show-sdk-path)"/usr/include/libxml2
+```
