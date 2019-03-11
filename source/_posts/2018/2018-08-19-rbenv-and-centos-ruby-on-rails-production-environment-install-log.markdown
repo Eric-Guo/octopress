@@ -13,6 +13,8 @@ categories:
 
 ## Update system
 
+Run as root:
+
 ```bash
 yum update
 yum install -y htop git zlib zlib-devel gcc-c++ patch readline readline-devel libyaml-devel libffi-devel openssl-devel make bzip2 autoconf automake libtool bison curl sqlite-devel
@@ -47,12 +49,12 @@ mkdir -p "$(rbenv root)"/plugins
 git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
 ```
 
-# Install Ruby 2.5.1
+# Install Ruby 2.6.1
 
 ```bash
 rbenv install -l
-rbenv install 2.5.1
-rbenv global 2.5.1
+rbenv install 2.6.1
+rbenv global 2.6.1
 eval "$(rbenv init -)" >> ~/.bash_profile
 echo "gem: --no-document" > ~/.gemrc
 gem install bundler
@@ -60,10 +62,12 @@ gem install bundler
 
 # Install Javascript Runtime
 
+Run as root:
+
 ```bash
-curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -
+curl -sL https://rpm.nodesource.com/setup_10.x | bash -
 sudo yum install nodejs
-sudo curl -sL https://dl.yarnpkg.com/rpm/yarn.repo -o /etc/yum.repos.d/yarn.repo
+curl -sL https://dl.yarnpkg.com/rpm/yarn.repo | sudo tee /etc/yum.repos.d/yarn.repo
 sudo yum install yarn
 ```
 
