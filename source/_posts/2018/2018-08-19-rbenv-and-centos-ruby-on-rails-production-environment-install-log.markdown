@@ -55,7 +55,7 @@ git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-b
 rbenv install -l
 rbenv install 2.6.1
 rbenv global 2.6.1
-eval "$(rbenv init -)" >> ~/.bash_profile
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 echo "gem: --no-document" > ~/.gemrc
 gem install bundler
 ```
