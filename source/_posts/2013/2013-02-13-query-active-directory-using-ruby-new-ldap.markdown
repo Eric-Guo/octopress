@@ -15,6 +15,12 @@ I'm trying [devise_ldap_authenticatable](https://github.com/cschiewek/devise_lda
 ldapsearch -x -LLL -D "SDCORP\mes.service" -w "Password" -b "DC=sdcorp,DC=global,DC=sandisk,DC=com" -s sub -H ldap://cvpcdcip04 "cn=Eric Guo" cn mail displayName samaccountname
 ```
 
+Or for 2019 thape domain:
+
+```bash
+ldapsearch -x -LLL -D "THAPE\guochunzhong" -w "Password" -b "DC=thape,DC=com,DC=cn" -s sub -H ldap://server02.thape.com.cn "samaccountname=guochunzhong" cn mail displayName samaccountname
+```
+
 ```ruby Using ruby gems to test
 require 'net/ldap'
 
