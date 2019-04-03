@@ -87,3 +87,22 @@ sudo chown deployer:deployer oauth2id/
 and disable selinux(https://linuxize.com/post/how-to-disable-selinux-on-centos-7/),
 
 or further read [nginx permission denied](https://stackoverflow.com/questions/23948527/13-permission-denied-while-connecting-to-upstreamnginx)
+
+# Install Oracle Instant Client
+
+[Download Version 12.2.0.1.0](https://www.oracle.com/technetwork/topics/linuxx86-64soft-092277.html) and following [ruby-oci8 document](https://github.com/kubo/ruby-oci8/blob/master/docs/install-instant-client.md#install-oracle-instant-client-packages)
+
+```bash
+sudo rpm -i ./oracle-instantclient12.2-basic-12.2.0.1.0-1.x86_64.rpm
+sudo rpm -i ./oracle-instantclient12.2-devel-12.2.0.1.0-1.x86_64.rpm
+sudo rpm -i ./oracle-instantclient12.2-sqlplus-12.2.0.1.0-1.x86_64.rpm
+cd /usr/local/bin
+sudo ln -s /usr/bin/sqlplus64 sqlplus
+export LD_LIBRARY_PATH=/usr/lib/oracle/12.2/client64/lib
+gem install ruby-oci8
+```
+
+```bash Append to ~/.bashrc
+export LD_LIBRARY_PATH=/usr/lib/oracle/12.2/client64/lib
+export NLS_LANG=en_US.UTF-8
+```
