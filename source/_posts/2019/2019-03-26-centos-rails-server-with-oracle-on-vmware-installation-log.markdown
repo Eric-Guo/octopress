@@ -106,3 +106,9 @@ gem install ruby-oci8
 export LD_LIBRARY_PATH=/usr/lib/oracle/12.2/client64/lib
 export NLS_LANG=en_US.UTF-8
 ```
+
+# Install MySQL
+
+[Install the percona server via yum](https://www.percona.com/doc/percona-server/5.7/installation/yum_repo.html).
+
+After install, [do the secure installation](https://stackoverflow.com/questions/36028166/can-not-connect-to-mysql-server-percona) for root.
