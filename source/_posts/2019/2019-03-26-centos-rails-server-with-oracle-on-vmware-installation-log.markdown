@@ -27,6 +27,23 @@ reboot
 
 As VMware admin required, not disable the `PermitRootLogin` in `/etc/ssh/sshd_config`
 
+# Setup a user account
+
+```bash
+adduser deployer
+gpasswd -a deployer wheel
+visudo # add deployer ALL=(ALL) NOPASSWD: ALL at end
+sudo su - deployer
+mkdir .ssh
+chmod 700 .ssh
+vi .ssh/authorized_keys
+chmod 600 .ssh/authorized_keys
+```
+
+Also disable root login and password via `PermitRootLogin` in `/etc/ssh/sshd_config`
+
+Before exis, make sure you can login via `ssh deployer@ip_address`, other wise, [check file permission](https://unix.stackexchange.com/a/36687/303385).
+
 # Install rbenv and ruby-build
 
 ```bash
@@ -40,12 +57,12 @@ mkdir -p "$(rbenv root)"/plugins
 git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
 ```
 
-# Install Ruby 2.6.2
+# Install Ruby 2.6.3
 
 ```bash
 rbenv install -l
-rbenv install 2.6.2
-rbenv global 2.6.2
+rbenv install 2.6.3
+rbenv global 2.6.3
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 echo "gem: --no-document" > ~/.gemrc
 gem install bundler
@@ -80,8 +97,8 @@ sudo yum install nginx
 ```bash
 sudo mkdir /var/www
 cd /var/www
-sudo mkdir oauth2id
-sudo chown deployer:deployer oauth2id/
+sudo mkdir cybros
+sudo chown deployer:deployer cybros/
 ```
 
 and disable selinux(https://linuxize.com/post/how-to-disable-selinux-on-centos-7/),
