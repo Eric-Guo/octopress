@@ -129,3 +129,11 @@ export NLS_LANG=en_US.UTF-8
 [Install the percona server via yum](https://www.percona.com/doc/percona-server/5.7/installation/yum_repo.html).
 
 After install, [do the secure installation](https://stackoverflow.com/questions/36028166/can-not-connect-to-mysql-server-percona) for root.
+
+```bash
+mysql -u root -p
+CREATE DATABASE cybros_prod character set UTF8mb4 collate utf8mb4_bin;
+CREATE USER 'cybros_prod'@'localhost' IDENTIFIED BY 'new_password';
+GRANT ALL ON cybros_prod.* TO 'cybros_prod'@'localhost';
+FLUSH PRIVILEGES;
+```
