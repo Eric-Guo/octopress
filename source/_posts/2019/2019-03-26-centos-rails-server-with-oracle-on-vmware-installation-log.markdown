@@ -90,6 +90,9 @@ yarn config set disturl https://npm.taobao.org/dist --global
 ```bash
 sudo yum install epel-release
 sudo yum install nginx
+chkconfig nginx on
+sudo firewall-cmd --add-service=http --permanent
+sudo firewall-cmd --reload
 ```
 
 # Fix permission for CentOS
