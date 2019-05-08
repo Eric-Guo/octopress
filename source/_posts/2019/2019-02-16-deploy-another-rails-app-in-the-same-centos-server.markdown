@@ -33,12 +33,12 @@ mkdir -p "$(rbenv root)"/plugins
 git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
 ```
 
-# Install Ruby 2.6.1
+# Install Ruby 2.6.3
 
 ```bash
 rbenv install -l
-rbenv install 2.6.1
-rbenv global 2.6.1
+rbenv install 2.6.3
+rbenv global 2.6.3
 eval "$(rbenv init -)" >> ~/.bash_profile
 echo "gem: --no-document" > ~/.gemrc
 gem install bundler
