@@ -59,6 +59,15 @@ sudo chown scschub:scschub scschub/
 cap production puma:config
 ```
 
+# Create mysql DB
+
+```
+CREATE USER 'cybros_staging'@'localhost' IDENTIFIED BY '4Z6ys0exOr-)';
+CREATE DATABASE cybros_staging character set UTF8mb4 collate utf8mb4_bin;
+GRANT ALL PRIVILEGES ON cybros_staging.* to 'cybros_staging'@'localhost';
+FLUSH PRIVILEGES;
+```
+
 # Create postgresql role
 
 
