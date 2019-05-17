@@ -92,6 +92,7 @@ sudo yum install epel-release
 sudo yum install nginx
 chkconfig nginx on
 sudo firewall-cmd --add-service=http --permanent
+sudo firewall-cmd --add-service=https --permanent
 sudo firewall-cmd --reload
 ```
 
