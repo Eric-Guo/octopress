@@ -33,3 +33,5 @@ cd "$BASE_DIR"
 echo $BASE_DIR
 . "spoon.command" "$BASE_DIR"
 ```
+
+If you want to continue using Java 12 in system wide, install `brew install jenv` and running `jenv local 1.8` at data-integration folder.
