@@ -41,32 +41,43 @@ AdGuard for Safari
 Install tools via brew
 
 ```bash
+brew install ansible
 brew install bash
 brew install elasticsearch
+brew install eslint
 brew install go
 brew install hub
+brew install jenv
 brew install jq
 brew install memcached
 brew install mtr
 brew install node
+brew install overmind
+brew install p7zip
 brew install pandoc
 brew install percona-server
 brew install postgresql
+brew install prettier
 brew install proxychains-ng
 brew install puma-dev
 brew install redis
 brew install ruby
 brew install sqlite
 brew install sshuttle
+brew install unrar
 brew install vim
+brew install yamllint
 brew install yarn
 ```
 
 Install tools via brew cask
 
 ```
+brew cask install adoptopenjdk8
 brew cask install airserver
 brew cask install anaconda
+brew cask install chromedriver
+brew cask install data-integration
 brew cask install firefox
 brew cask install google-chrome
 brew cask install googleappengine
