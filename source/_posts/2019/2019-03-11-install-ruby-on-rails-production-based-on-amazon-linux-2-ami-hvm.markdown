@@ -4,7 +4,7 @@ title: "Install Ruby on Rails production based on Amazon Linux 2 AMI (HVM)"
 date: 2019-03-11T11:29:30+08:00
 comments: true
 external-url:
-categories:
+categories: [Amazon]
 ---
 
 Based my last [rbenv and CentOS Ruby on Rails production environment install log](/2018/08/19/rbenv-and-centos-ruby-on-rails-production-environment-install-log/), but this time on AWS!

@@ -4,7 +4,7 @@ title: "Ruby Conf China 2017 Notes"
 date: 2017-09-16T09:36:29+08:00
 comments: true
 external-url:
-categories:
+categories: [Rubyconf]
 ---
 
 # 第一场 m-ruby on nginx from strikely

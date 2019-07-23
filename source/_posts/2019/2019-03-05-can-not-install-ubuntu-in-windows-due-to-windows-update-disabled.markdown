@@ -4,7 +4,7 @@ title: "Can not install Ubuntu in Windows due to Windows Update disabled"
 date: 2019-03-05T16:24:21+08:00
 comments: true
 external-url:
-categories:
+categories: [Windows]
 ---
 
 

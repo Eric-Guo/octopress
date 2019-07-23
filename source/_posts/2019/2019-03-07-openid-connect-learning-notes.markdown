@@ -4,7 +4,7 @@ title: "OpenID Connect Learning notes"
 date: 2019-03-07T10:45:37+08:00
 comments: true
 external-url:
-categories:
+categories: [oauth2id]
 ---
 
 最近在做面向大中型企业的 oauth2id 方案，这个领域有很多术语，比如OAuth2, OpenID Connect，同时也有很多相同概念的术语，例如SSO（Single Sign On），CAS（Central Authentication Service）

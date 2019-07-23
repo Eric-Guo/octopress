@@ -4,7 +4,7 @@ title: "rbenv and CentOS Ruby on Rails production environment install log"
 date: 2018-08-19T22:51:11+08:00
 comments: true
 external-url:
-categories:
+categories: [rbenv]
 ---
 
 [Original refer](https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-centos-7), install on a Aliyun server.

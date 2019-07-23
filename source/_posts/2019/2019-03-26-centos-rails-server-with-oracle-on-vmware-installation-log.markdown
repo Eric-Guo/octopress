@@ -4,7 +4,7 @@ title: "CentOS Rails server with Oracle on VMware Installation log"
 date: 2019-03-26T11:23:14+08:00
 comments: true
 external-url:
-categories:
+categories: [CentOS]
 ---
 
 

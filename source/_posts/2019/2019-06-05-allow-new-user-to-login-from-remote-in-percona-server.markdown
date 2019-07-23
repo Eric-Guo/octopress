@@ -4,7 +4,7 @@ title: "Allow new user to login from remote in Percona server"
 date: 2019-06-05T11:32:43+08:00
 comments: true
 external-url:
-categories:
+categories: [MySQL]
 ---
 
 ### Allow remote connect

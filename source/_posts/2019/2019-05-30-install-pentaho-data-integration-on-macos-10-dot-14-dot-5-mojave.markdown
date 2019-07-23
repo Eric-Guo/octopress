@@ -4,7 +4,7 @@ title: "Install Pentaho Data Integration on MacOS 10.14.5 Mojave"
 date: 2019-05-30T15:47:53+08:00
 comments: true
 external-url:
-categories:
+categories: [Pentaho]
 ---
 
 It's a little hard to find out the root cause why out of box Pentaho Data Integration not working, any way, it's resolved.

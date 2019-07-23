@@ -4,7 +4,7 @@ title: "Deploy simple rails app to CentOS 7.4 on Aliyun in 2018"
 date: 2018-03-03T20:22:39+08:00
 comments: true
 external-url:
-categories:
+categories: [CentOS]
 ---
 
 It's 2018, docker quite mature, but since we can buy a server less than 600 RMB in Aliyun including 40Gb storage, 1MB network, 1 core CPU and 2G memory, so I still want to install it in the triditional way.

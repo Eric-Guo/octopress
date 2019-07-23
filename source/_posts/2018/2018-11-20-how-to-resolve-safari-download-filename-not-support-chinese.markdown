@@ -4,7 +4,7 @@ title: "How to resolve Safari download filename not support Chinese"
 date: 2018-11-20T13:58:28+08:00
 comments: true
 external-url:
-categories:
+categories: [Safari]
 ---
 
 Found from [stackoverflow](https://stackoverflow.com/questions/51482811/rails-send-file-filename-utf-8-broken-in-internet-explorer), which I think should including in send_data acturally....

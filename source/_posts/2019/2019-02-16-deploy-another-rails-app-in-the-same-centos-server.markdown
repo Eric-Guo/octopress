@@ -4,7 +4,7 @@ title: "Deploy another Rails app in the same CentOS server"
 date: 2019-02-16T20:40:28+08:00
 comments: true
 external-url:
-categories:
+categories: [CentOS]
 ---
 
 Assure the first Rails app is running as user `deployer` and second as user `scschub`.

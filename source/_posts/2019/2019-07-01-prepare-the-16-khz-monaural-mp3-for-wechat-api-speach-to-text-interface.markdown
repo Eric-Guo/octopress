@@ -4,7 +4,7 @@ title: "Prepare the 16 kHz Monaural MP3 for Wechat API speach to text interface"
 date: 2019-07-01T10:33:07+08:00
 comments: true
 external-url:
-categories:
+categories: [FFmpeg]
 ---
 
 ```bash

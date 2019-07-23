@@ -4,7 +4,7 @@ title: "Upgrade brew installed mysql 8.0 inplace"
 date: 2019-01-24T11:57:33+08:00
 comments: true
 external-url:
-categories:
+categories: [MySQL]
 ---
 
 Largely based on [this blog](https://mysqlserverteam.com/inplace-upgrade-from-mysql-5-7-to-mysql-8-0/)
