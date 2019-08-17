@@ -4,7 +4,7 @@ title: "Installation Ruby 2.1.3 on Windows log"
 date: 2014-09-21T09:27:04+08:00
 comments: true
 external-url:
-categories: [Ruby, Windows7]
+categories: [Ruby, Windows7, SQLite]
 ---
 
 Except simply install the ruby 2.1.3 from [rubyinstaller](http://rubyinstaller.org/downloads/) and it's DevKit, here is my log when I meet the problem during ruby 2.1.3 on a Windows 7 32bits machine.

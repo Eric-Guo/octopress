@@ -4,7 +4,7 @@ title: "Notes to upgrade ruby 2.0.0-p195 in Windws 7"
 date: 2013-05-18T14:37:58+08:00
 comments: true
 external-url:
-categories: [Ruby, Windows7]
+categories: [Ruby, Windows7, SQLite]
 ---
 
 Finally, I go to ruby 2.0, after the first patch p195 release, roughly three month [the ruby 2.0 released in its 20 years celebration](https://blog.heroku.com/archives/2013/3/6/matz_highlights_ruby_2_0_at_waza). I using the [rubyinstaller.org](http://rubyinstaller.org/downloads/) version and also it's devkit, the detail [installation procedure](/2013/01/28/howto-install-ruby-rails-rubymine-in-windows7/) is very like previous 1.9.3, so won't repeat here now, but I do found some trick which should in fact including in the official document but not, so I would list as below:
