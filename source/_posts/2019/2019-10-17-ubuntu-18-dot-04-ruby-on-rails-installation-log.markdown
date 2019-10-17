@@ -56,3 +56,45 @@ gem install bundler
 gem install rails
 rbenv rehash
 ```
+
+## Install postgresql
+
+```bash
+apt-get install postgresql
+apt-get install postgresql-server-dev-all
+sudo su - postgres
+createuser ubuntu --pwprompt
+psql
+ALTER ROLE ubuntu LOGIN;
+CREATE DATABASE cam_price_prod WITH ENCODING='UTF8' OWNER=ubuntu;
+```
+
+## Install nginx
+
+```bash
+apt-get install nginx
+```
+
+## Generate ssh key
+
+```bash
+ssh-keygen
+sudo mkdir /var/www
+cd /var/www
+sudo mkdir cam_price
+sudo chown ubuntu:ubuntu cam_price/
+```
+
+
+## Install HTTPS
+
+Largely following [certbot guide](https://certbot.eff.org/lets-encrypt/ubuntubionic-nginx)
+
+```
+apt-get update
+apt-get install software-properties-common
+add-apt-repository universe
+add-apt-repository ppa:certbot/certbot
+apt-get update
+apt-get install certbot python-certbot-nginx
+```
