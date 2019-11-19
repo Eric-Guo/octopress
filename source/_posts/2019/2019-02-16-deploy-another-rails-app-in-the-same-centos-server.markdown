@@ -31,14 +31,15 @@ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
 # As an rbenv plugin
 mkdir -p "$(rbenv root)"/plugins
 git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
+git clone https://github.com/andorchen/rbenv-china-mirror.git "$(rbenv root)"/plugins/rbenv-china-mirror
 ```
 
-# Install Ruby 2.6.3
+# Install Ruby 2.6.5
 
 ```bash
 rbenv install -l
-rbenv install 2.6.3
-rbenv global 2.6.3
+rbenv install 2.6.5
+rbenv global 2.6.5
 eval "$(rbenv init -)" >> ~/.bash_profile
 echo "gem: --no-document" > ~/.gemrc
 gem install bundler
