@@ -48,7 +48,7 @@ Before exis, make sure you can login via `ssh deployer@ip_address`, other wise, 
 
 ```bash
 cd # as a deployer
-git clone git://github.com/sstephenson/rbenv.git .rbenv
+git clone https://github.com/sstephenson/rbenv.git .rbenv
 cd ~/.rbenv && src/configure && make -C src
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
 ~/.rbenv/bin/rbenv init
@@ -57,12 +57,12 @@ mkdir -p "$(rbenv root)"/plugins
 git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
 ```
 
-# Install Ruby 2.6.3
+# Install Ruby 2.6.5
 
 ```bash
 rbenv install -l
-rbenv install 2.6.3
-rbenv global 2.6.3
+rbenv install 2.6.5
+rbenv global 2.6.5
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 echo "gem: --no-document" > ~/.gemrc
 gem install bundler
