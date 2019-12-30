@@ -35,3 +35,13 @@ echo $BASE_DIR
 ```
 
 If you want to continue using Java 12 in system wide, install `brew install jenv` and running `jenv local 1.8` at data-integration folder.
+
+You could also setting below environment variable:
+
+```sh spoon.sh
+# . "$BASEDIR/set-pentaho-env.sh"
+# setPentahoEnv
+# Comment out above 2 line and add below 2 line
+_PENTAHO_JAVA_HOME="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/"
+_PENTAHO_JAVA="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin/java"
+```
