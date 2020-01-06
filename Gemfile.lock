@@ -52,7 +52,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     redcarpet (3.5.0)
-    rubypants (0.7.0)
+    rubypants (0.7.1)
     sass (3.4.25)
     sinatra (1.4.8)
       rack (~> 1.5)
