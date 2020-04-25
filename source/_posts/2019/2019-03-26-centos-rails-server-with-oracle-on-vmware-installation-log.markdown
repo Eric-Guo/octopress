@@ -82,6 +82,8 @@ sudo yum install yarn
 # if you behind GFW
 npm config set registry https://registry.npm.taobao.org/ --global
 npm config set disturl https://npm.taobao.org/dist --global
+# Sometime taobao is out of sync, so still need official registry.
+# yarn config set registry https://registry.npmjs.com/ --global
 yarn config set registry https://registry.npm.taobao.org/ --global
 yarn config set disturl https://npm.taobao.org/dist --global
 ```
