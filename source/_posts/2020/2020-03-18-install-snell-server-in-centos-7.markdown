@@ -16,11 +16,11 @@ mkdir .ssh
 chmod 700 .ssh
 vi .ssh/authorized_keys
 chmod 600 .ssh/authorized_keys
-wget https://github.com/surge-networks/snell/releases/download/v1.1.1/snell-server-v1.1.1-linux-amd64.zip
-unzip snell-server-v1.1.1-linux-amd64.zip
+wget https://github.com/surge-networks/snell/releases/download/v2.0.2/snell-server-v2.0.2-linux-amd64.zip
+unzip snell-server-v2.0.2-linux-amd64.zip
 mkdir snell
 mv snell-server snell
-rm snell-server-v1.1.1-linux-amd64.zip
+rm snell-server-v2.0.2-linux-amd64.zip
 cd snell
 ./snell-server # generate conf file
 ```
