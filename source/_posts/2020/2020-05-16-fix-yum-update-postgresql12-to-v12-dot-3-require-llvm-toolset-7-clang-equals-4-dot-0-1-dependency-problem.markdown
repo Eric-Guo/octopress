@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Fix yum update postgresql12 to v12.3 require llvm-toolset-7-clang >= 4.0.1 dependency problem"
+title: "Fix yum update postgresql12 to v12.3 require LLVM-toolset-7-clang >= 4.0.1 dependency problem"
 date: 2020-05-16T06:43:47+08:00
 comments: true
 external-url:
