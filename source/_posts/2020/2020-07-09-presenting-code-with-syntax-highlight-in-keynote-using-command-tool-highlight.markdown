@@ -17,4 +17,6 @@ pbpaste | highlight --syntax=jsx -O rtf | pbcopy
 pbpaste | python -m json.tool | highlight --syntax=json -O rtf | pbcopy
 ```
 
+[Click](http://www.andre-simon.de/doku/highlight/en/langs.php) to see more language highlight supported.
+
 Note: install highlight first using `brew install highlight`, [original link](https://gist.github.com/jimbojsb/1630790)
