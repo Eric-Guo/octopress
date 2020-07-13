@@ -23,3 +23,5 @@ rbenv shell 2.7.1
 gem install bundler --default -v "1.17.3"
 gem install bundler
 ```
+
+Notes, after capistrano-bundler release 2.0, maybe no need in future.
