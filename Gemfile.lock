@@ -37,7 +37,7 @@ GEM
     maruku (0.7.3)
     mathn (0.1.0)
     multi_json (1.15.0)
-    posix-spawn (0.3.14)
+    posix-spawn (0.3.15)
     pygments.rb (0.3.7)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1)
