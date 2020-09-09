@@ -34,14 +34,16 @@ git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-b
 git clone https://github.com/andorchen/rbenv-china-mirror.git "$(rbenv root)"/plugins/rbenv-china-mirror
 ```
 
-# Install Ruby 2.6.5
+# Install Ruby 2.7.1
 
 ```bash
 rbenv install -l
-rbenv install 2.6.5
-rbenv global 2.6.5
+rbenv install 2.7.1
+rbenv global 2.7.1
+rbenv shell 2.7.1
 eval "$(rbenv init -)" >> ~/.bash_profile
 echo "gem: --no-document" > ~/.gemrc
+gem install bundler --default -v "1.17.3"
 gem install bundler
 ```
 
@@ -63,7 +65,7 @@ cap production puma:config
 # Create mysql DB
 
 ```
-CREATE USER 'cybros_staging'@'localhost' IDENTIFIED BY '4Z6ys0exOr-)';
+CREATE USER 'cybros_staging'@'localhost' IDENTIFIED BY 'password';
 CREATE DATABASE cybros_staging character set UTF8mb4 collate utf8mb4_bin;
 GRANT ALL PRIVILEGES ON cybros_staging.* to 'cybros_staging'@'localhost';
 FLUSH PRIVILEGES;
