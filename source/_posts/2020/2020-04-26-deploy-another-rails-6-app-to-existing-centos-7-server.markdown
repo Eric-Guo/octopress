@@ -32,13 +32,13 @@ git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-b
 git clone https://github.com/andorchen/rbenv-china-mirror.git "$(rbenv root)"/plugins/rbenv-china-mirror
 ```
 
-# Install Ruby 2.7.1
+# Install Ruby 2.7.2
 
 ```bash
 rbenv install -l
-rbenv install 2.7.1
-rbenv global 2.7.1
-rbenv shell 2.7.1
+rbenv install 2.7.2
+rbenv global 2.7.2
+rbenv shell 2.7.2
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 echo "gem: --no-document" > ~/.gemrc
 gem install bundler --default -v "1.17.3"
