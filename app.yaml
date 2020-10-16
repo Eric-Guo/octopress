@@ -60,7 +60,11 @@ handlers:
 # www.mywot.com for blog.cloud-mes.com
 - url: /mywotd928d2c8ae3fd5f09f97\.html
   static_files: public/mywotd928d2c8ae3fd5f09f97.html
-  upload: public/mywotd928d2c8ae3fd5f09f97.xml
+  upload: public/mywotd928d2c8ae3fd5f09f97.html
+
+- url: /\.well-known/pki-validation/fileauth\.txt
+  static_files: public/freessl_fileauth.txt
+  upload: public/freessl_fileauth.txt
 
 - url: /
   static_dir: public
