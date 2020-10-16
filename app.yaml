@@ -62,7 +62,7 @@ handlers:
   static_files: public/mywotd928d2c8ae3fd5f09f97.html
   upload: public/mywotd928d2c8ae3fd5f09f97.html
 
-- url: /\.well-known/pki-validation/fileauth\.txt
+- url: /\.well-known\/pki-validation\/fileauth\.txt
   static_files: public/freessl_fileauth.txt
   upload: public/freessl_fileauth.txt
 
