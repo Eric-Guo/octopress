@@ -97,12 +97,12 @@ twitter_follow_button: true
 twitter_show_follower_count: false
 
 # Google +1
-google_plus_one: true
+google_plus_one: false
 google_plus_one_size: medium
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-google_plus_user: 111227458915455234901
+google_plus_user: # 111227458915455234901
 google_plus_hidden: false
 google_plus_image_size: 32
 
