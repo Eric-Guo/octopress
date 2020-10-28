@@ -34,10 +34,7 @@ FLUSH PRIVILEGES;
 mysql -u root -p # input password if required
 CREATE USER 'cad_reader'@'%' IDENTIFIED BY 'cad_reader_password';
 GRANT SELECT ON cybros_prod.cad_operations TO 'cad_reader'@'%';
-GRANT SELECT ON cybros_prod.cad_sessions TO 'cad_reader'@'%';
-GRANT SELECT ON cybros_prod.users TO 'cad_reader'@'%';
-GRANT SELECT ON cybros_prod.department_users TO 'cad_reader'@'%';
-GRANT SELECT ON cybros_prod.departments TO 'cad_reader'@'%';
+GRANT SELECT, INSERT, UPDATE, DELETE ON cybros_prod.split_cost_items TO 'cad_reader'@'%';
 FLUSH PRIVILEGES;
 ```
 
