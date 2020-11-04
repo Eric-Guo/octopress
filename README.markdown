@@ -1,3 +1,10 @@
+## How to deploy
+
+```
+bundle exec rake generate
+gcloud app deploy ./app.yaml
+```
+
 ## What is Octopress?
 
 Octopress is [Jekyll](https://github.com/mojombo/jekyll) blogging at its finest.
