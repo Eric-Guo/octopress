@@ -130,7 +130,7 @@ gem install ruby-oci8
 
 ```bash Append to ~/.bashrc
 export LD_LIBRARY_PATH=/usr/lib/oracle/12.2/client64/lib
-export NLS_LANG=en_US.UTF-8
+export NLS_LANG=AMERICAN_AMERICA.AL32UTF8
 ```
 
 # Install FreeTDS to connect to SQL Server
