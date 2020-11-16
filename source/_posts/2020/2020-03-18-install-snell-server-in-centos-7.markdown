@@ -16,11 +16,11 @@ mkdir .ssh
 chmod 700 .ssh
 vi .ssh/authorized_keys
 chmod 600 .ssh/authorized_keys
-wget https://github.com/surge-networks/snell/releases/download/v2.0.2/snell-server-v2.0.2-linux-amd64.zip
-unzip snell-server-v2.0.2-linux-amd64.zip
+wget https://github.com/surge-networks/snell/releases/download/v2.0.3/snell-server-v2.0.3-linux-amd64.zip
+unzip snell-server-v2.0.3-linux-amd64.zip
 mkdir snell
 mv snell-server snell
-rm snell-server-v2.0.2-linux-amd64.zip
+rm snell-server-v2.0.3-linux-amd64.zip
 cd snell
 ./snell-server # generate conf file
 ```
@@ -45,6 +45,14 @@ ExecStart=/home/snell/snell/snell-server -c /home/snell/snell/snell-server.conf
 
 [Install]
 WantedBy=multi-user.target
+```
+
+## Add port
+
+```bash
+sudo firewall-cmd --zone=public --add-port=11666/tcp
+sudo firewall-cmd --zone=public --add-port=11666/udp
+sudo firewall-cmd --reload
 ```
 
 ## Restart or run below
