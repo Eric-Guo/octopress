@@ -4,7 +4,7 @@ title: "New T3 micro EC2 box on Amazon Linux install log"
 date: 2020-05-23T10:17:14+08:00
 comments: true
 external-url:
-categories:
+categories: [Amazon]
 ---
 
 Time is pass so faster, another 3 years passed after [my previous T2 micro installed](/2017/05/29/new-ec2-box-on-amazon-linux-install-log/).

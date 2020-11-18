@@ -4,7 +4,7 @@ title: "Extend the disk size in CentOS which running in VMware"
 date: 2020-07-21T15:25:24+08:00
 comments: true
 external-url:
-categories:
+categories: [CentOS]
 ---
 
 Largely copy from [Linux Techi](https://www.linuxtechi.com/extend-lvm-partitions/)

@@ -4,7 +4,7 @@ title: "Install ImageMagick 7.0.10 on CentOS 7.8"
 date: 2020-09-22T16:37:07+08:00
 comments: true
 external-url:
-categories:
+categories: [ImageMagick]
 ---
 
 Go official imageMagick website to [download](https://imagemagick.org/script/download.php)

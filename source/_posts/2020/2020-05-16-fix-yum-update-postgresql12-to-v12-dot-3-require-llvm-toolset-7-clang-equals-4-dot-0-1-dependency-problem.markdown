@@ -4,7 +4,7 @@ title: "Fix yum update postgresql12 to v12.3 require LLVM-toolset-7-clang >= 4.0
 date: 2020-05-16T06:43:47+08:00
 comments: true
 external-url:
-categories:
+categories: [PostgreSQL]
 ---
 
 Simple running `yum update` on a CensOS 7 machine which installing the official postgresql v12 will get below problem:

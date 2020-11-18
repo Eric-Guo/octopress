@@ -4,7 +4,7 @@ title: "Bug or correct behavior but very miss leading LEFT JOIN in MySQL 8"
 date: 2020-06-11T11:35:50+08:00
 comments: true
 external-url:
-categories:
+categories: [MySQL]
 ---
 
 Today I found a [missing rows in MySQL 8](https://stackoverflow.com/questions/33555581/mysql-left-join-function-results-missing-rows) problem in production, which SQL LEFT JOIN should be added at join condition instead of where.

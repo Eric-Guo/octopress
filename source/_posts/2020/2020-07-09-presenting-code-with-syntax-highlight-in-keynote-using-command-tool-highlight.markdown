@@ -4,7 +4,7 @@ title: "Presenting code with syntax-highlight in Keynote using command tool high
 date: 2020-07-09T08:24:28+08:00
 comments: true
 external-url:
-categories:
+categories: [Keynote]
 ---
 
 # Just one line

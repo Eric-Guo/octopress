@@ -4,7 +4,7 @@ title: "Ubuntu 18.04 ruby on rails installation log"
 date: 2019-10-17T19:50:54+08:00
 comments: true
 external-url:
-categories:
+categories: [Ubuntu, Rails]
 ---
 
 ## Enable the Firewall

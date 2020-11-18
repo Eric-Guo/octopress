@@ -4,7 +4,7 @@ title: "Fix rake 11.3 and jekyll 0.12.1 warning under ruby 2.7.1"
 date: 2020-04-25T19:59:51+08:00
 comments: true
 external-url:
-categories:
+categories: [jekyll]
 ---
 
 After upgrade ruby to 2.7.1, I found my old octopress give below two warning:

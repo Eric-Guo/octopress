@@ -4,7 +4,7 @@ title: "Setting binlog_expire_logs_seconds in Percona-Server MySQL 8"
 date: 2020-06-22T10:12:44+08:00
 comments: true
 external-url:
-categories:
+categories: [MySQL]
 ---
 
 `vi /etc/my.conf`
