@@ -4,7 +4,7 @@ title: "Install ruby 2.2.10 in new macOS 10.15 and Linux"
 date: 2020-09-11T11:04:26+08:00
 comments: true
 external-url:
-categories: [Ruby]
+categories: [Ruby, macOS]
 ---
 
 ```bash

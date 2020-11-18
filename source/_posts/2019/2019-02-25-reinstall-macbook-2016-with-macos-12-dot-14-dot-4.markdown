@@ -4,7 +4,7 @@ title: "Reinstall Macbook 2016 with MacOS 10.14.4"
 date: 2019-02-25T15:40:07+08:00
 comments: true
 external-url:
-categories: [MacOS]
+categories: [macOS]
 ---
 
 Two years after running [MacOS 10.12.6](/2016/11/17/a-web-developer-macbook-pro-2016-installation-notes/), I decide to switch to a new job so have to re-install my MBP to 10.14.4 to make sure nothing left in my old computer.

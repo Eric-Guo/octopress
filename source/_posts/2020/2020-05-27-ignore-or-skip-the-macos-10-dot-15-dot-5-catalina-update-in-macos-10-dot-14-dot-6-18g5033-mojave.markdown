@@ -4,7 +4,7 @@ title: "ignore or skip the macOS 10.15.5 Catalina update in macOS 10.14.6 (18G50
 date: 2020-05-27T08:37:12+08:00
 comments: true
 external-url:
-categories: [MacOS]
+categories: [macOS]
 ---
 
 ```bash
