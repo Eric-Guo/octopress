@@ -4,7 +4,7 @@ title: "Monitor Sidekiq service with Monit &amp; Capistrano"
 date: 2016-06-08T21:13:32+08:00
 comments: true
 external-url: 
-categories: [CentOS, Ruby]
+categories: [CentOS, Ruby, capistrano]
 ---
 
 [Sidekiq](http://sidekiq.org) as a background processing facility in Rails, usually more and more important during business grow, but it's relative quite possible failed to startup due to there is some code error, so here is my solution to monitor it.
