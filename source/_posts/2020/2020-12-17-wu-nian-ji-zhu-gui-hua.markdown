@@ -72,6 +72,14 @@ App端最有前途的还是苹果的生态，不是说苹果的东西有多好�
 
 Serverless的框架我将一直跟进[redwood.js](https://redwoodjs.cn)，中国区的镜像站点我目前在维护。
 
+## GraphQL
+
+GraphQL不是一个新技术，我还记得2019年的Ruby conf china有一个专门做[服装MES的有数派](https://www.youshupai.com/technologyProduct.html)已经早就实践了很久了，当然这家公司现在已经凉了。GraphQL相比RestfulAPI最大的贡献就是提出了聚合的概念，可以在一个呼叫中取得一个页面所需的所有数据，从来提高用户体验，缺点也非常明显，所有的呼叫都只有一个端点，缓存几乎无法做，性能肯定会差。
+
+最重要的是GraphQL真的很复杂，虽然现在[PostGraphile和Apollo](https://ruby-china.org/topics/40334)在试图降低复杂性，但是至少从这个时间点看，GraphQL还是不必要的复杂了。
+
+RestAPI和GraphSQL其实不矛盾，我的观点是当你一个API可以返回一个页面的所有数据后，那么你这个API就是GraphQL了。
+
 # 总结
 
 未来5年将重点发展 JS，Web端，小程序端，特别赌一下Taro平台。
