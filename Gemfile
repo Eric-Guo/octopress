@@ -15,6 +15,7 @@ group :development do
   gem 'rubypants', '~> 0.2'
   gem 'stringex', '~> 2.0'
   gem 'tzinfo', '~> 0.3.45'
+  gem 'rexml' # require by maruku v0.7.3
 end
 
 gem 'sinatra', '~> 1.4.2'

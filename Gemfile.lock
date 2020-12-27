@@ -50,6 +50,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     redcarpet (3.5.1)
+    rexml (3.2.4)
     rubypants (0.7.1)
     sass (3.4.25)
     sinatra (1.4.8)
@@ -76,10 +77,11 @@ DEPENDENCIES
   rake-minify
   rb-fsevent
   redcarpet (~> 3.0)
+  rexml
   rubypants (~> 0.2)
   sinatra (~> 1.4.2)
   stringex (~> 2.0)
   tzinfo (~> 0.3.45)
 
 BUNDLED WITH
-   2.2.2
+   2.2.3
