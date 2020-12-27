@@ -30,17 +30,15 @@ GEM
       kramdown (~> 0.14)
       liquid (~> 2.3)
       maruku (~> 0.5)
-      pygments.rb (~> 0.3.2)
+      pygments.rb (~> 1.2.1)
     jsmin (1.0.1)
     kramdown (0.14.2)
     liquid (2.6.3)
     maruku (0.7.3)
     mathn (0.1.0)
     multi_json (1.15.0)
-    posix-spawn (0.3.15)
-    pygments.rb (0.3.7)
-      posix-spawn (~> 0.3.6)
-      yajl-ruby (~> 1.1)
+    pygments.rb (1.2.1)
+      multi_json (>= 1.0.0)
     rack (1.6.13)
     rack-protection (1.5.5)
       rack
@@ -61,7 +59,6 @@ GEM
     stringex (2.8.5)
     tilt (2.0.10)
     tzinfo (0.3.58)
-    yajl-ruby (1.4.1)
 
 PLATFORMS
   ruby
@@ -73,7 +70,7 @@ DEPENDENCIES
   haml (~> 4.0.6)
   jekyll (~> 0.12.0)
   liquid (~> 2.5)
-  pygments.rb (~> 0.3.4)
+  pygments.rb (~> 1.2.1)
   rack (~> 1.6.5)
   rake (~> 11.3)
   rake-minify

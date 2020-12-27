@@ -5,7 +5,7 @@ group :development do
   gem 'haml', '~> 4.0.6'
   gem 'jekyll', '~> 0.12.0'
   gem 'liquid', '~> 2.5'
-  gem 'pygments.rb', '~> 0.3.4'
+  gem 'pygments.rb', '~> 1.2.1'
   gem 'rack', '~> 1.6.5'
   gem 'rake', '~> 11.3'
   gem 'rake-minify'
