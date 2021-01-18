@@ -91,6 +91,11 @@ ALTER ROLE scschub INHERIT;
 ```
 psql -d sccsa_production
 ALTER TABLE wechat_sessions OWNER TO sccsa_users;
+ALTER TABLE schema_migrations OWNER TO sccsa_users;
+ALTER TABLE ar_internal_metadata OWNER TO sccsa_users;
+ALTER TABLE active_storage_attachments OWNER TO sccsa_users;
+ALTER TABLE active_storage_blobs OWNER TO sccsa_users;
+ALTER TABLE active_storage_variant_records OWNER TO sccsa_users;
 ALTER SEQUENCE wechat_sessions_id_seq OWNER TO sccsa_users;
 ```
 
