@@ -42,12 +42,12 @@ task :install, :theme do |t, args|
   # copy theme into working Jekyll directories
   theme = args.theme || 'classic'
   puts "## Copying "+theme+" theme into ./#{source_dir} and ./sass"
-  mkdir_p source_dir
+  FileUtils.mkdir_p source_dir
   cp_r "#{themes_dir}/#{theme}/source/.", source_dir
-  mkdir_p "sass"
+  FileUtils.mkdir_p "sass"
   cp_r "#{themes_dir}/#{theme}/sass/.", "sass"
-  mkdir_p "#{source_dir}/#{posts_dir}"
-  mkdir_p public_dir
+  FileUtils.mkdir_p "#{source_dir}/#{posts_dir}"
+  FileUtils.mkdir_p public_dir
 end
 
 #######################
@@ -144,7 +144,7 @@ task :new_post, :title do |t, args|
   end
   raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme." unless File.directory?(source_dir)
   time = now_in_timezone(timezone) 
-  mkdir_p "#{source_dir}/#{posts_dir}"
+  FileUtils.mkdir_p "#{source_dir}/#{posts_dir}"
   filename = "#{source_dir}/#{posts_dir}/#{time.strftime('%Y-%m-%d')}-#{title.to_url}.#{new_post_ext}"
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
@@ -180,7 +180,7 @@ task :new_page, :filename do |t, args|
     page_dir = page_dir.map! { |d| d = d.to_url }.join('/')                # Sanitize path
     filename = filename.downcase.to_url
 
-    mkdir_p page_dir
+    FileUtils.mkdir_p page_dir
     file = "#{page_dir}/#{filename}.#{extension}"
     if File.exist?(file)
       abort("rake aborted!") if ask("#{file} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
@@ -382,7 +382,7 @@ task :set_root_dir, :dir do |t, args|
       f.write jekyll_config
     end
     rm_rf public_dir
-    mkdir_p "#{public_dir}#{dir}"
+    FileUtils.mkdir_p "#{public_dir}#{dir}"
     puts "\n========================================================"
     puts "Site's root directory is now '/#{dir.sub(/^\//, '')}'"
     puts "Don't forget to update your url in _config.yml"
