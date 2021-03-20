@@ -99,4 +99,18 @@ ALTER TABLE active_storage_variant_records OWNER TO sccsa_users;
 ALTER SEQUENCE wechat_sessions_id_seq OWNER TO sccsa_users;
 ```
 
+
+# SQL which may help to build above ALTER faster.
+
+```sql
+SELECT 'ALTER TABLE '||table_name||' OWNER TO sccsa_users;'
+FROM information_schema.tables
+WHERE table_schema = 'public'
+ORDER BY table_name;
+SELECT 'ALTER SEQUENCE '||sequence_name||' OWNER TO sccsa_users;'
+FROM information_schema."sequences"
+WHERE sequence_schema = 'public';
+ORDER BY sequence_name;
+```
+
 [Further reference](https://www.digitalocean.com/community/tutorials/how-to-use-roles-and-manage-grant-permissions-in-postgresql-on-a-vps--2).
