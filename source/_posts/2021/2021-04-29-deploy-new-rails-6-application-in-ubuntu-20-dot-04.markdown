@@ -17,6 +17,11 @@ chmod 700 .ssh
 vi .ssh/authorized_keys # and paste your public key
 chmod 600 .ssh/authorized_keys
 ```
+# Install nginx
+
+```bash
+sudo apt-get install nginx
+```
 
 # Install node.js 15 and yarn 1.x
 
@@ -32,7 +37,7 @@ echo "deb [signed-by=/usr/share/keyrings/yarnkey.gpg] https://dl.yarnpkg.com/deb
 sudo apt-get update && sudo apt-get install yarn
 ```
 
-## Install rbenv and Ruby 3.0.1
+# Install rbenv and Ruby 3.0.1
 
 ```bash
 sudo apt install rbenv
@@ -45,4 +50,14 @@ rbenv global 3.0.1
 echo "gem: --no-document" > ~/.gemrc
 eval "$(rbenv init -)" >> ~/.bash_profile # or past the `rbenv init -`
 rbenv shell 3.0.1
+```
+
+# Create MySQL DB user
+
+```bash
+mysql -u root -p
+CREATE DATABASE cybros_vendor character set UTF8mb4 collate utf8mb4_bin;
+CREATE USER 'cybros_vendor'@'%' IDENTIFIED BY 'cybros_vendor_password';
+GRANT ALL ON cybros_vendor.* TO 'cybros_vendor'@'%';
+FLUSH PRIVILEGES;
 ```
