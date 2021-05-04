@@ -28,20 +28,22 @@ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
 ~/.rbenv/bin/rbenv init
 # As an rbenv plugin
 mkdir -p "$(rbenv root)"/plugins
-git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
-git clone https://github.com/andorchen/rbenv-china-mirror.git "$(rbenv root)"/plugins/rbenv-china-mirror
+# git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
+git clone https://gitee.com/Eric-Guo/ruby-build.git "$(rbenv root)"/plugins/ruby-build
+# git clone https://github.com/andorchen/rbenv-china-mirror.git "$(rbenv root)"/plugins/rbenv-china-mirror
+git clone https://gitee.com/Eric-Guo/rbenv-china-mirror.git "$(rbenv root)"/plugins/rbenv-china-mirror
 ```
 
-# Install Ruby 2.7.2
+# Install Ruby 3.0.1
 
 ```bash
 rbenv install -l
-rbenv install 2.7.2
-rbenv global 2.7.2
-rbenv shell 2.7.2
+rbenv install 3.0.1
+rbenv global 3.0.1
+rbenv shell 3.0.1
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 echo "gem: --no-document" > ~/.gemrc
-gem install bundler --default -v "1.17.3"
+# gem install bundler --default -v "1.17.3"
 gem install bundler
 bundle config build.pg --with-pg-config=/usr/pgsql-13/bin/pg_config
 ```
