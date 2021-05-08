@@ -81,3 +81,11 @@ CREATE USER 'cybros_vendor'@'%' IDENTIFIED BY 'cybros_vendor_password';
 GRANT ALL ON cybros_vendor.* TO 'cybros_vendor'@'%';
 FLUSH PRIVILEGES;
 ```
+
+# Link rbenv to make capistrano works
+
+```bash
+mkdir -p ~/.rbenv/bin
+cd ~/.rbenv/bin
+ln -s /usr/bin/rbenv rbenv
+```
