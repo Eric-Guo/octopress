@@ -11,4 +11,5 @@ categories: [MySQL]
 mysql> SHOW FULL PROCESSLIST;
 mysql> SELECT * FROM information_schema.innodb_trx;
 mysql> kill xxx;
+mysql> SHOW GRANTS FOR cad_reader;
 ```
