@@ -89,3 +89,24 @@ mkdir -p ~/.rbenv/bin
 cd ~/.rbenv/bin
 ln -s /usr/bin/rbenv rbenv
 ```
+
+# Install Oracle Instant Client
+
+[Download Version 19.11.0.0.0](https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html) and following [ruby-oci8 document](https://github.com/kubo/ruby-oci8/blob/master/docs/install-instant-client.md#unix-zip-packages)
+
+```bash
+sudo mkdir /opt/oracle
+sudo unzip instantclient-basic-linux.x64-19.11.0.0.0dbru.zip -d /opt/oracle
+sudo unzip instantclient-sqlplus-linux.x64-19.11.0.0.0dbru.zip -d /opt/oracle/
+sudo unzip instantclient-sdk-linux.x64-19.11.0.0.0dbru.zip -d /opt/oracle/
+cd /usr/local/bin
+sudo ln -s /opt/oracle/instantclient_19_11/sqlplus  sqlplus
+export LD_LIBRARY_PATH=/opt/oracle/instantclient_19_11
+gem install ruby-oci8
+```
+
+```text Append to /etc/environment
+TNS_ADMIN=/opt/oracle/instantclient_19_11/network/admin
+LD_LIBRARY_PATH=/opt/oracle/instantclient_19_11
+NLS_LANG=AMERICAN_AMERICA.AL32UTF8
+```
