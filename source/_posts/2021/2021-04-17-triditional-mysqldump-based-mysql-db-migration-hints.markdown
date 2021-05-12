@@ -3,14 +3,13 @@ layout: post
 title: "Triditional mysqldump based MySQL DB migration hints"
 date: 2021-04-17T11:11:32+08:00
 comments: true
-external-url: 
+external-url:
 categories: [MySQL]
 ---
 
 Dump based on the SQL not fast, but many system doesn't need either, and the simplicity many times shining instead of faster.
 
-
-## Dump the DB out.
+## Dump the DB out
 
 ```bash
 mysqldump -u root -p --all-databases | gzip > thape_bidb_all.sql.gz # input password
