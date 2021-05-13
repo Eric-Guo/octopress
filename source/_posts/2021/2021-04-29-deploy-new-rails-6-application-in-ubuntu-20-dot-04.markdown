@@ -110,3 +110,11 @@ TNS_ADMIN=/opt/oracle/instantclient_19_11/network/admin
 LD_LIBRARY_PATH=/opt/oracle/instantclient_19_11
 NLS_LANG=AMERICAN_AMERICA.AL32UTF8
 ```
+
+Also need setting in `systemd/system/puma_service` or `side_service`
+
+```text
+Environment="TNS_ADMIN=/opt/oracle/instantclient_19_11/network/admin"
+Environment="LD_LIBRARY_PATH=/opt/oracle/instantclient_19_11"
+Environment="NLS_LANG=AMERICAN_AMERICA.AL32UTF8"
+```
