@@ -32,6 +32,14 @@ echo "cybros_vendor ALL=(ALL) NOPASSWD:ALL" > 80-cybros_vendor-user
 sudo apt-get install nginx
 ```
 
+It's also possible to [enable TLS 1.1/1.2 due to Ubuntu 20.04 not support by default](https://askubuntu.com/questions/1240595/enable-tls-1-0-and-tls-1-1-on-ubuntu-20-04).
+
+```nginx /etc/nginx/nginx.conf
+ssl_protocols TLSv1 TLSv1.1 TLSv1.2 TLSv1.3;
+# seclevel for TLS 1.0 and 1.1
+ssl_ciphers "EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH:@SECLEVEL=1";
+```
+
 # Install node.js 15 and yarn 1.x
 
 Using [nodesource distribution](https://github.com/nodesource/distributions/blob/master/README.md#debinstall)
