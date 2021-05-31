@@ -6,7 +6,7 @@ group :development do
   gem 'jekyll', '~> 0.12.0'
   gem 'liquid', '~> 2.5'
   gem 'pygments.rb', '~> 1.2.1'
-  gem 'rack', '~> 1.6.5'
+  gem 'rack'
   gem 'rake', '~> 11.3'
   gem 'rake-minify'
   gem 'rb-fsevent'
@@ -18,4 +18,4 @@ group :development do
   gem 'rexml' # require by maruku v0.7.3
 end
 
-gem 'sinatra', '~> 1.4.2'
+gem 'sinatra'
